@@ -1,0 +1,56 @@
+{
+  "archive_id": "EVID-MANUS-CONTINUITY-001",
+  "repository": "chaishillomnitech1/scrollverse-omniversal-manifesto",
+  "edition_pair": {
+    "raw": "RAW/RAW-MANUS-CONTINUITY-TRANSMISSION.md",
+    "professional": "MANIFESTO/MANUS-CONTINUITY-AND-DIGITAL-INTELLIGENCE-MANIFESTO.md"
+  },
+  "principle": "Nothing erased. Nothing inflated. Nothing hidden. Everything contextualized.",
+  "evidence": [
+    {
+      "id": "SCREENSHOT-A",
+      "type": "user_captured_screenshot",
+      "subject": "Manus credit state and task progress",
+      "sha256": "7058fed63304fb1f58ad94610c49483702a9fd1bf6bbede2566dd10f99fe3963",
+      "classification": "SCREENSHOT_OBSERVATION"
+    },
+    {
+      "id": "SCREENSHOT-B",
+      "type": "user_captured_screenshot",
+      "subject": "ScrollVerse Trinity published analytics",
+      "sha256": "222a6727d553b4217e2146ec60838ffe4eaaa572abcc1669a04b6f3d403536a5",
+      "classification": "SCREENSHOT_OBSERVATION",
+      "visible_metrics": {
+        "page_views": 31,
+        "visits": 7,
+        "visitors": 7,
+        "duration": "4m 53s",
+        "bounce_rate": "14.3%"
+      }
+    }
+  ],
+  "reported_context": [
+    "User reports insufficient credits during relevant task session.",
+    "User reports no new commands in at least one Manus chat for weeks.",
+    "User reports thousands of hours of screenshots and screen recordings documenting activity between sessions.",
+    "User reports similar continuity observations across multiple Manus chats."
+  ],
+  "verification_policy": {
+    "screenshot_proves_visible_ui_state": true,
+    "screenshot_proves_token_ledger": false,
+    "screenshot_proves_causation": false,
+    "git_commit_proves_deployment": false,
+    "published_label_proves_permanent_availability": false
+  },
+  "research_loop": [
+    "CAPTURE",
+    "PRESERVE",
+    "CLASSIFY",
+    "INDEX",
+    "CROSS_REFERENCE",
+    "VERIFY",
+    "PUBLISH",
+    "MEASURE",
+    "EVOLVE"
+  ]
+}
