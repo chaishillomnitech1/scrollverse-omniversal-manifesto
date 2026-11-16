@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+from html.parser import HTMLParser
 import sys
 import urllib.error
 import urllib.parse
@@ -22,6 +23,7 @@ ROOT = Path(__file__).resolve().parents[2]
 REGISTRY = ROOT / "OBSERVATORY" / "SOURCES.json"
 MAX_FEED_BYTES = 2_000_000
 MAX_ITEMS_PER_FEED = 100
+MAX_PAGE_BYTES = 2_000_000
 USER_AGENT = "OmniversalKnowledgeObservatory/1.0 (+https://github.com/chaishillomnitech1/scrollverse-omniversal-manifesto)"
 DOMAIN_VALUES = {
     "ancient_civilizations", "religious_developments", "uap_disclosure",
@@ -143,6 +145,75 @@ def fetch_feed(feed: dict, timeout: int = 25) -> tuple[list[dict], dict]:
     }
 
 
+
+class TitleParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.in_title = False
+        self.parts = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag.lower() == "title":
+            self.in_title = True
+
+    def handle_endtag(self, tag):
+        if tag.lower() == "title":
+            self.in_title = False
+
+    def handle_data(self, data):
+        if self.in_title:
+            self.parts.append(data.strip())
+
+
+def fetch_monitored_page(page: dict, prior_state: dict, timeout: int = 25) -> tuple[dict, dict]:
+    url = safe_https_url(page.get("url"))
+    if not url:
+        raise ValueError(f"Monitored page {page.get('id')} does not use HTTPS")
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "text/html,application/xhtml+xml"})
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        final_url = safe_https_url(response.geturl())
+        origin_host = urllib.parse.urlparse(url).hostname
+        final_host = urllib.parse.urlparse(final_url).hostname if final_url else None
+        if not final_url or final_host != origin_host:
+            raise ValueError("Monitored-page redirect must remain on the registered HTTPS host")
+        content_type = response.headers.get("Content-Type", "")
+        payload = response.read(MAX_PAGE_BYTES + 1)
+    if len(payload) > MAX_PAGE_BYTES:
+        raise ValueError("Monitored page exceeds 2 MB safety limit")
+    digest = hashlib.sha256(payload).hexdigest()
+    parser = TitleParser()
+    try:
+        parser.feed(payload.decode("utf-8", errors="replace"))
+    except Exception:
+        pass
+    title = " ".join(part for part in parser.parts if part)[:300] or page["name"]
+    prior = prior_state.get(page["id"], {})
+    prior_hash = prior.get("content_sha256")
+    if not prior_hash:
+        change_state = "BASELINE"
+    elif prior_hash == digest:
+        change_state = "UNCHANGED"
+    else:
+        change_state = "CHANGED"
+    checked = utc_now()
+    check = {
+        "page_id": page["id"],
+        "page_name": page["name"],
+        "source_url": url,
+        "final_url": final_url,
+        "domains": page["domains"],
+        "content_type": content_type,
+        "title": title,
+        "content_sha256": digest,
+        "previous_content_sha256": prior_hash,
+        "change_state": change_state,
+        "checked_at_utc": checked,
+        "review_required": change_state in ("BASELINE", "CHANGED"),
+        "preservation_note": "Page-change metadata only. This hash is not proof of authorship, authenticity, event occurrence, or truth; inspect and accession the underlying source separately."
+    }
+    next_state = {"content_sha256": digest, "last_checked_utc": checked, "source_url": url, "title": title}
+    return check, next_state
+
 def load_registry() -> dict:
     data = json.loads(REGISTRY.read_text(encoding="utf-8"))
     if not isinstance(data.get("feeds"), list):
@@ -178,6 +249,24 @@ def run(output_dir: Path, registry: dict) -> dict:
                 leads.setdefault(item["lead_id"], item)
         except (urllib.error.URLError, TimeoutError, ValueError, ET.ParseError, OSError) as exc:
             failures.append({"feed_id": feed.get("id"), "feed_url": feed.get("url"), "error_type": type(exc).__name__, "message": str(exc)[:400], "recorded_at_utc": utc_now()})
+    state_path = output_dir.parent / "state" / "monitored-pages.json"
+    state_path.parent.mkdir(parents=True, exist_ok=True)
+    prior_state = {}
+    if state_path.exists():
+        prior_state = json.loads(state_path.read_text(encoding="utf-8"))
+    page_checks = []
+    page_failures = []
+    next_state = dict(prior_state)
+    for page in registry.get("monitored_pages", []):
+        if not page.get("enabled", False) or page.get("fetch_mode") != "page_hash_monitor":
+            continue
+        try:
+            check, state = fetch_monitored_page(page, prior_state)
+            page_checks.append(check)
+            next_state[page["id"]] = state
+        except (urllib.error.URLError, TimeoutError, ValueError, OSError) as exc:
+            page_failures.append({"page_id": page.get("id"), "source_url": page.get("url"), "error_type": type(exc).__name__, "message": str(exc)[:400], "recorded_at_utc": utc_now()})
+    state_path.write_text(json.dumps(next_state, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
     payload = {
         "archive_id": f"OKO-FEED-INGEST-{day}",
         "generated_at_utc": utc_now(),
@@ -188,13 +277,15 @@ def run(output_dir: Path, registry: dict) -> dict:
         "leads": sorted(leads.values(), key=lambda x: (x.get("published_raw") or "", x["lead_id"]), reverse=True),
         "feed_diagnostics": diagnostics,
         "feed_failures": failures,
+        "page_checks": page_checks,
+        "page_failures": page_failures,
         "coverage_note": "A feed item is a lead to inspect. Feed inclusion, repetition, metadata hashes, and source class do not establish factual truth or independent corroboration."
     }
     destination.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     summary = {"archive": str(destination), "leads": len(leads), "feeds_succeeded": len(diagnostics), "feeds_failed": len(failures)}
     print(json.dumps(summary, indent=2))
-    if not diagnostics:
-        raise RuntimeError("No source feeds succeeded; refusing to treat this run as a healthy collection cycle")
+    if not diagnostics and not page_checks:
+        raise RuntimeError("No registered feeds or monitored pages succeeded; refusing to treat this run as a healthy collection cycle")
     return payload
 
 
@@ -206,7 +297,10 @@ def self_test() -> None:
     assert len(parse_feed(atom, feed, "2026-11-16T12:00:00Z")) == 1
     assert safe_https_url("http://example.org") is None
     assert safe_https_url("https://user:pass@example.org") is None
-    print("Self-test passed: RSS, Atom, HTTPS allowlist, and metadata accession.")
+    title_parser = TitleParser()
+    title_parser.feed("<html><head><title>Observatory Test Page</title></head></html>")
+    assert " ".join(title_parser.parts) == "Observatory Test Page"
+    print("Self-test passed: RSS, Atom, HTTPS allowlist, page-title parsing, and metadata accession.")
 
 
 if __name__ == "__main__":
