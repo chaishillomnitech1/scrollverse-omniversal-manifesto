@@ -1,0 +1,158 @@
+{
+  "registry_version": "1.0.0",
+  "updated_on": "2026-11-16",
+  "policy": "Only explicitly registered HTTPS sources are fetched. Feeds surface leads; they do not establish truth. Feed items retain source links and metadata; copyrighted article bodies are not copied.",
+  "feeds": [
+    {
+      "id": "nasa-science",
+      "name": "NASA Science",
+      "url": "https://science.nasa.gov/feed/",
+      "domains": [
+        "cosmic_discoveries",
+        "unexplained_phenomena"
+      ],
+      "source_class": "government_science",
+      "enabled": true
+    },
+    {
+      "id": "nasa-news",
+      "name": "NASA News Releases",
+      "url": "https://www.nasa.gov/news-release/feed/",
+      "domains": [
+        "cosmic_discoveries",
+        "unexplained_phenomena"
+      ],
+      "source_class": "government_primary",
+      "enabled": true
+    },
+    {
+      "id": "cneos-news",
+      "name": "NASA Center for Near Earth Object Studies",
+      "url": "https://cneos.jpl.nasa.gov/feed/news.xml",
+      "domains": [
+        "cosmic_discoveries",
+        "unexplained_phenomena"
+      ],
+      "source_class": "government_science",
+      "enabled": true
+    },
+    {
+      "id": "smithsonian-history",
+      "name": "Smithsonian Magazine — History",
+      "url": "https://www.smithsonianmag.com/rss/history/",
+      "domains": [
+        "ancient_civilizations",
+        "religious_developments"
+      ],
+      "source_class": "museum_and_history_reporting",
+      "enabled": true
+    },
+    {
+      "id": "smithsonian-science",
+      "name": "Smithsonian Magazine — Science & Nature",
+      "url": "https://www.smithsonianmag.com/rss/science-nature/",
+      "domains": [
+        "ancient_civilizations",
+        "unexplained_phenomena",
+        "cosmic_discoveries"
+      ],
+      "source_class": "museum_and_science_reporting",
+      "enabled": true
+    },
+    {
+      "id": "pew-religion",
+      "name": "Pew Research Center — Religion",
+      "url": "https://www.pewresearch.org/topic/religion/feed/",
+      "domains": [
+        "religious_developments"
+      ],
+      "source_class": "research_institution",
+      "enabled": true
+    },
+    {
+      "id": "arxiv-history-science",
+      "name": "arXiv — History and Philosophy of Physics",
+      "url": "https://rss.arxiv.org/rss/physics.hist-ph",
+      "domains": [
+        "ancient_civilizations",
+        "religious_developments"
+      ],
+      "source_class": "research_preprint",
+      "enabled": true
+    },
+    {
+      "id": "arxiv-exoplanets",
+      "name": "arXiv — Earth and Planetary Astrophysics",
+      "url": "https://rss.arxiv.org/rss/astro-ph.EP",
+      "domains": [
+        "cosmic_discoveries"
+      ],
+      "source_class": "research_preprint",
+      "enabled": true
+    },
+    {
+      "id": "arxiv-neuroscience",
+      "name": "arXiv — Neurons and Cognition",
+      "url": "https://rss.arxiv.org/rss/q-bio.NC",
+      "domains": [
+        "consciousness_intelligence"
+      ],
+      "source_class": "research_preprint",
+      "enabled": true
+    },
+    {
+      "id": "arxiv-ai",
+      "name": "arXiv — Artificial Intelligence",
+      "url": "https://rss.arxiv.org/rss/cs.AI",
+      "domains": [
+        "consciousness_intelligence"
+      ],
+      "source_class": "research_preprint",
+      "enabled": true
+    },
+    {
+      "id": "arxiv-quantum",
+      "name": "arXiv — Quantum Physics",
+      "url": "https://rss.arxiv.org/rss/quant-ph",
+      "domains": [
+        "cosmic_discoveries",
+        "consciousness_intelligence"
+      ],
+      "source_class": "research_preprint",
+      "enabled": true
+    }
+  ],
+  "monitored_pages": [
+    {
+      "id": "aaro-official",
+      "name": "All-domain Anomaly Resolution Office",
+      "url": "https://www.aaro.mil/",
+      "domains": [
+        "uap_disclosure"
+      ],
+      "fetch_mode": "manual_review_only",
+      "reason": "No verified RSS endpoint registered; do not scrape or infer updates from unverified mirrors."
+    },
+    {
+      "id": "nasa-uap-study",
+      "name": "NASA UAP Independent Study",
+      "url": "https://science.nasa.gov/uap/",
+      "domains": [
+        "uap_disclosure"
+      ],
+      "fetch_mode": "manual_review_only",
+      "reason": "Official reference page retained for human review."
+    },
+    {
+      "id": "archaeology-institute",
+      "name": "Archaeological Institute of America / Archaeology Magazine",
+      "url": "https://archaeology.org/",
+      "domains": [
+        "ancient_civilizations"
+      ],
+      "fetch_mode": "manual_review_only",
+      "reason": "Official publication homepage; add a feed only after validating its official syndication endpoint."
+    }
+  ],
+  "coverage_note": "Initial feed coverage is intentionally stronger for astronomy, science, research preprints, history, religion and AI. UAP official pages are tracked as human-review sources pending a verified feed/API. Paranormal, cryptid, Indigenous and local oral-history records require carefully sourced, consent-aware accessions rather than automated truth-ranking."
+}
