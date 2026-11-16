@@ -70,6 +70,10 @@ These labels apply to individual claims, not whole cultures, religions, witnesse
 
 A discovery is not complete merely because it is exciting, published, or widely repeated. It becomes a durable Observatory record when its source trail and limitations can be inspected.
 
+## Automated source discovery
+
+The scheduled collector and its human-review process are documented in [AUTOMATION-AND-OPERATIONS.md](./AUTOMATION-AND-OPERATIONS.md). The initial allowlisted source registry is [SOURCES.json](./SOURCES.json). Incoming feed items are source leads only and are never automatically promoted to verified findings. The machine-readable lead contract is [INGEST-LEAD.schema.json](./INGEST-LEAD.schema.json). Regression tests run on pull requests; the daily feed job is designed to open a review pull request rather than silently modify the canonical archive.
+
 ## Existing ScrollVerse artifacts
 
 See [PYRAMID-AND-ARCHIVE-CROSSWALK.md](./PYRAMID-AND-ARCHIVE-CROSSWALK.md) for a first-pass inventory of existing digital-pyramid and archive references. Existing artifacts remain in their original repositories.
