@@ -53,6 +53,8 @@ jobs:
         if: github.event_name != 'pull_request'
         run: |
           git fetch origin main
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           if git ls-remote --exit-code --heads origin automation/observatory-daily-ingest >/dev/null 2>&1; then
             git fetch origin automation/observatory-daily-ingest
             git checkout -B automation/observatory-daily-ingest FETCH_HEAD

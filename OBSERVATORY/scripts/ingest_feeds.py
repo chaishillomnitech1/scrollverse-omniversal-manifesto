@@ -139,7 +139,7 @@ def fetch_feed(feed: dict, timeout: int = 25) -> tuple[list[dict], dict]:
         "feed_id": feed["id"], "feed_url": url, "final_url": final_url,
         "http_content_type": content_type, "http_result": "success",
         "feed_payload_sha256": hashlib.sha256(payload).hexdigest(),
-        "items_discovered": len(parsed), "fetched_at_utc": fetched_at
+        "items_discovered": len(parsed), "items_limit_reached": len(parsed) >= MAX_ITEMS_PER_FEED, "per_feed_item_limit": MAX_ITEMS_PER_FEED, "fetched_at_utc": fetched_at
     }
 
 
