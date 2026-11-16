@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Omniversal Knowledge Observatory Source Lead",
+  "type": "object",
+  "required": [
+    "lead_id",
+    "title",
+    "source_url",
+    "feed_id",
+    "feed_name",
+    "feed_url",
+    "domains",
+    "first_seen_utc",
+    "metadata_sha256",
+    "discovery_state",
+    "review_state",
+    "truth_assessment"
+  ],
+  "properties": {
+    "lead_id": {
+      "type": "string",
+      "pattern": "^OKO-LEAD-[A-F0-9]{20}$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "source_identifier": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "published_raw": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "creator_or_author": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "feed_id": {
+      "type": "string"
+    },
+    "feed_name": {
+      "type": "string"
+    },
+    "feed_url": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "source_class": {
+      "type": "string"
+    },
+    "domains": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "ancient_civilizations",
+          "religious_developments",
+          "uap_disclosure",
+          "unexplained_phenomena",
+          "cosmic_discoveries",
+          "consciousness_intelligence"
+        ]
+      }
+    },
+    "first_seen_utc": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "metadata_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "discovery_state": {
+      "const": "SOURCE_LOCATED"
+    },
+    "review_state": {
+      "const": "UNREVIEWED"
+    },
+    "truth_assessment": {
+      "const": "NOT_ASSESSED"
+    },
+    "preservation_note": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}
