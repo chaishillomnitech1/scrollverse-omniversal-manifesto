@@ -37,6 +37,11 @@ class FeedIngestionTests(unittest.TestCase):
         b = ingest.parse_feed(xml, self.feed, "2026-11-16T00:01:00Z")[0]
         self.assertEqual(a["metadata_sha256"], b["metadata_sha256"])
 
+    def test_page_title_parser(self):
+        parser = ingest.TitleParser()
+        parser.feed("<html><head><title>Official source title</title></head></html>")
+        self.assertEqual(" ".join(parser.parts), "Official source title")
+
     def test_self_test(self):
         ingest.self_test()
 
