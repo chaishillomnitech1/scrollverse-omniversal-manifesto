@@ -72,7 +72,7 @@ A discovery is not complete merely because it is exciting, published, or widely 
 
 ## Automated source discovery
 
-The scheduled collector and its human-review process are documented in [AUTOMATION-AND-OPERATIONS.md](./AUTOMATION-AND-OPERATIONS.md). The initial allowlisted source registry is [SOURCES.json](./SOURCES.json). Incoming feed items are source leads only and are never automatically promoted to verified findings. The machine-readable lead contract is [INGEST-LEAD.schema.json](./INGEST-LEAD.schema.json). Regression tests run on pull requests; the daily feed job is designed to open a review pull request rather than silently modify the canonical archive.
+The scheduled collector and its human-review process are documented in [AUTOMATION-AND-OPERATIONS.md](./AUTOMATION-AND-OPERATIONS.md). The initial allowlisted source registry is [SOURCES.json](./SOURCES.json). Incoming feed items are source leads only and are never automatically promoted to verified findings. The machine-readable lead contract is [INGEST-LEAD.schema.json](./INGEST-LEAD.schema.json). Regression tests run on pull requests; daily feed records are published to a persistent review branch rather than silently modifying the canonical archive.
 
 ## Live source-review stream
 
