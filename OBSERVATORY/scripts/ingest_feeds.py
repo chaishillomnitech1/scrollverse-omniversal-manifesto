@@ -10,8 +10,6 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
-import os
-import re
 import sys
 import urllib.error
 import urllib.parse
@@ -127,8 +125,10 @@ def fetch_feed(feed: dict, timeout: int = 25) -> tuple[list[dict], dict]:
     request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/atom+xml, application/rss+xml, application/xml, text/xml"})
     with urllib.request.urlopen(request, timeout=timeout) as response:
         final_url = safe_https_url(response.geturl())
-        if not final_url:
-            raise ValueError("Feed redirected outside HTTPS")
+        origin_host = urllib.parse.urlparse(url).hostname
+        final_host = urllib.parse.urlparse(final_url).hostname if final_url else None
+        if not final_url or final_host != origin_host:
+            raise ValueError("Feed redirect must remain on the registered HTTPS host")
         content_type = response.headers.get("Content-Type", "")
         payload = response.read(MAX_FEED_BYTES + 1)
     if len(payload) > MAX_FEED_BYTES:
