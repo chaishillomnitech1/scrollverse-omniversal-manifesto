@@ -1,6 +1,14 @@
 name: Omniversal Knowledge Observatory — Source Ingestion
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/observatory-ingest.yml"
+      - "OBSERVATORY/SOURCES.json"
+      - "OBSERVATORY/scripts/**"
+      - "OBSERVATORY/tests/**"
   schedule:
     - cron: "17 11 * * *"
   workflow_dispatch:
