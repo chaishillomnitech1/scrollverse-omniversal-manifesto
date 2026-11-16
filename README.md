@@ -27,9 +27,20 @@ The archive distinguishes vision, proposal, implementation, Git record, release,
 - `OMNIWORLD/` — OmniWorld / Omniland architecture.
 - `PROVENANCE/` — provenance engine specification and lineage rules.
 - `OPERATING-SYSTEM/` — ScrollVerse operating-system model.
+- `OBSERVATORY/` — Omniversal Knowledge Observatory charter, six-domain research protocol, discovery schema, and source crosswalk.
 - `RELEASE/` — release and immutability records.
 - `LICENSE/` — attribution, provenance, and IP-boundary notes.
 - `SEAL/` — permanent archive seal and accession metadata.
+
+## Omniversal Knowledge Observatory
+
+**Six domains. One living archive. No premature dismissal.**
+
+The Observatory extends this archive into a structured research and discovery system spanning ancient civilizations, religious developments, UAP disclosure, unexplained phenomena, cosmic discoveries, and consciousness/intelligence.
+
+Start here: [OBSERVATORY/README.md](./OBSERVATORY/README.md).
+
+The foundation includes a charter, research and evidence protocol, machine-readable discovery-record schema, initial register, and a crosswalk to existing ScrollVerse digital-pyramid artifacts. It is a documented foundation; it does not claim that a global ingestion pipeline or public Observatory interface is already deployed.
 
 ## New continuity accession
 

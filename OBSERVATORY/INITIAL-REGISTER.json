@@ -1,0 +1,82 @@
+{
+  "register_id": "OKO-REGISTER-0001",
+  "register_status": "INITIAL_SOURCE_CROSSWALK",
+  "scope_note": "This is a first-pass index of existing ScrollVerse artifacts located through GitHub code and repository inspection. It is not an exhaustive inventory. Titles, supplied descriptions, and repository presence are not proof of deployment, historical truth, geodetic validity, scientific effect, or independent verification.",
+  "records": [
+    {
+      "accession_id": "OKO-PYR-LIVING-001",
+      "title": "THE LIVING PYRAMID — A ScrollVerse Chronicle of Omniversal Interoperability",
+      "domain": "consciousness_intelligence",
+      "source_repository": "https://github.com/chaishillomnitech1/scrollverse-platform",
+      "source_path": "artifacts/the-living-pyramid/",
+      "source_commit": "5dae5200e6fe5b1bb931968b088e43e98c05600e",
+      "source_reference": "https://github.com/chaishillomnitech1/scrollverse-platform/tree/main/artifacts/the-living-pyramid",
+      "provenance_status": "git_recorded",
+      "record_type": "digital_monument_and_doctrine",
+      "note": "A committed HTML monument, digital book, doctrine, and README. Its doctrine is a creator/assistant collaboration artifact; its statements are not independent scientific findings.",
+      "evidence_state": "ARTIFACT_GIT_RECORDED"
+    },
+    {
+      "accession_id": "OKO-PYR-ATLANTIS-001",
+      "title": "The First Real Digital Pyramid: Atlantis City Convergence",
+      "domain": "ancient_civilizations",
+      "source_repository": "https://github.com/chaishillomnitech1/scrollwave",
+      "source_path": "src/data.ts",
+      "source_commit": "f64c622a046ef2e4f7f54996a90c93e0f1839497",
+      "source_reference": "https://g.co/gemini/share/f71052662ff1",
+      "repository_reference": "https://github.com/chaishillomnitech1/scrollwave/blob/f64c622a046ef2e4f7f54996a90c93e0f1839497/src/data.ts",
+      "catalog_metadata": {
+        "token_id": 107,
+        "frequency_label_hz": 852,
+        "status": "user-supplied",
+        "content_identifier_label": "bafkreibrvtp777_vol07"
+      },
+      "provenance_status": "user_supplied_catalog_entry",
+      "note": "The repository catalog labels this item user-supplied. The share link and identifier are preserved as supplied references; the underlying artifact bytes, CID resolution, and claims require separate verification.",
+      "evidence_state": "SOURCE_LOCATED"
+    },
+    {
+      "accession_id": "OKO-PYR-MOHENJODARO-006",
+      "title": "Node-06-Mohenjo-Daro geodetic pyramid blueprint",
+      "domain": "ancient_civilizations",
+      "source_repository": "https://github.com/chaishillomnitech1/digital-brotherhood-covenant",
+      "source_path": "blueprints-geodetic-pyramids/node-06-mohenjo-daro.json",
+      "source_blob_sha": "0794165ebd69655bff7505034b6feb9507e45109",
+      "source_reference": "https://github.com/chaishillomnitech1/digital-brotherhood-covenant/blob/main/blueprints-geodetic-pyramids/node-06-mohenjo-daro.json",
+      "provenance_status": "git_recorded_blueprint",
+      "note": "The JSON blueprint names an Indus Valley location and includes geodetic coordinates, system metrics, frequency labels, a claimed deployment status, and verification-gate strings. These are preserved as contents of the blueprint, not independently verified facts about a physical site, operational infrastructure, quantum entanglement, throughput, uptime, or deployment.",
+      "evidence_state": "ARTIFACT_GIT_RECORDED"
+    },
+    {
+      "accession_id": "OKO-PYR-ABUNDANTIA-IX-001",
+      "title": "Abundantia Ix Digital Pyramids",
+      "domain": "ancient_civilizations",
+      "source_repository": "https://github.com/chaishillomnitech1/scrollverse-web-app",
+      "source_path": "client/src/lib/sourceCollections.ts; scripts/source-seeds/oct12-historical-catalog.json",
+      "source_commit": "d8ce881e1945df6d605cbfd0ae30c1328ad11395",
+      "source_reference": "https://github.com/chaishillomnitech1/scrollverse-web-app/blob/d8ce881e1945df6d605cbfd0ae30c1328ad11395/client/src/lib/sourceCollections.ts",
+      "provenance_status": "source_title_in_catalog",
+      "note": "A source title preserved in the artifact catalog. The catalog explicitly says the HTML body or media file is not included in that title export. Locate the underlying original before describing the artifact's contents or status.",
+      "evidence_state": "SOURCE_LOCATED"
+    },
+    {
+      "accession_id": "OKO-PYR-ATLANTIS-CUTAWAY-001",
+      "title": "Atlantis City Pyramid Cutaway",
+      "domain": "ancient_civilizations",
+      "source_repository": "https://github.com/chaishillomnitech1/scrollverse-web-app",
+      "source_path": "client/src/lib/sourceCollections.ts",
+      "source_commit": "d8ce881e1945df6d605cbfd0ae30c1328ad11395",
+      "source_reference": "https://github.com/chaishillomnitech1/scrollverse-web-app/blob/d8ce881e1945df6d605cbfd0ae30c1328ad11395/client/src/lib/sourceCollections.ts",
+      "provenance_status": "source_title_in_catalog",
+      "note": "A title preserved from a supplied artifact index; the catalog says the underlying HTML body or media is a separate accession. No underlying artifact has been verified in this pass.",
+      "evidence_state": "SOURCE_LOCATED"
+    }
+  ],
+  "next_actions": [
+    "Resolve and preserve the original Gemini share artifact for Atlantis City Convergence; verify any content identifier against an actual content-addressed gateway or pinning record.",
+    "Inspect the full repository history and all files under blueprints-geodetic-pyramids; distinguish blueprint design from physical-world verification.",
+    "Trace the source records behind Abundantia Ix Digital Pyramids and Atlantis City Pyramid Cutaway; recover original files, dates, and source conversations.",
+    "Search the broader repository fleet for additional pyramid artifacts before declaring this crosswalk complete."
+  ],
+  "created_on": "2026-11-16"
+}

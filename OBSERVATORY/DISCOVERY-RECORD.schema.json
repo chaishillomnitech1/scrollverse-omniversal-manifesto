@@ -1,0 +1,489 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/chaishillomnitech1/scrollverse-omniversal-manifesto/blob/main/OBSERVATORY/DISCOVERY-RECORD.schema.json",
+  "title": "Omniversal Knowledge Observatory Discovery Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "accession_id",
+    "title",
+    "domain",
+    "recorded_at_utc",
+    "source",
+    "claim_records",
+    "historical_context",
+    "geographic_origin",
+    "independent_corroboration",
+    "competing_explanations",
+    "unresolved_questions",
+    "cross_domain_connections",
+    "revision_history",
+    "preservation",
+    "date_precision",
+    "witness_or_reporting_organization"
+  ],
+  "properties": {
+    "accession_id": {
+      "type": "string",
+      "pattern": "^OKO-[A-Z0-9-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "domain": {
+      "enum": [
+        "ancient_civilizations",
+        "religious_developments",
+        "uap_disclosure",
+        "unexplained_phenomena",
+        "cosmic_discoveries",
+        "consciousness_intelligence"
+      ]
+    },
+    "related_domains": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "ancient_civilizations",
+          "religious_developments",
+          "uap_disclosure",
+          "unexplained_phenomena",
+          "cosmic_discoveries",
+          "consciousness_intelligence"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "recorded_at_utc": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "event_or_publication_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Use an ISO date or date-time where known; never substitute upload date."
+    },
+    "date_precision": {
+      "enum": [
+        "exact",
+        "approximate",
+        "date_range",
+        "unknown"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_type",
+        "creator_or_custodian",
+        "canonical_reference",
+        "accessed_at_utc",
+        "provenance_status"
+      ],
+      "properties": {
+        "source_type": {
+          "enum": [
+            "primary_document",
+            "raw_media",
+            "dataset",
+            "instrument_record",
+            "witness_account",
+            "oral_history",
+            "archaeological_record",
+            "official_release",
+            "peer_reviewed_publication",
+            "secondary_reporting",
+            "catalog_entry",
+            "other"
+          ]
+        },
+        "creator_or_custodian": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "canonical_reference": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
+        },
+        "archive_or_repository_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "accessed_at_utc": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "provenance_status": {
+          "enum": [
+            "original_obtained",
+            "official_copy",
+            "archived_copy",
+            "secondary_reference",
+            "user_supplied",
+            "unknown"
+          ]
+        },
+        "license_or_rights": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "consent_and_access_restrictions": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "historical_context": {
+      "type": "string"
+    },
+    "geographic_origin": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "place_description",
+        "latitude",
+        "longitude",
+        "precision"
+      ],
+      "properties": {
+        "place_description": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "latitude": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": -90,
+          "maximum": 90
+        },
+        "longitude": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": -180,
+          "maximum": 180
+        },
+        "precision": {
+          "enum": [
+            "site",
+            "locality",
+            "region",
+            "country",
+            "approximate",
+            "unknown"
+          ]
+        },
+        "sensitive_location": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    },
+    "witness_or_reporting_organization": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name_or_label",
+          "role"
+        ],
+        "properties": {
+          "name_or_label": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          },
+          "identity_public": {
+            "type": "boolean"
+          },
+          "source_reference": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "claim_records": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "claim_id",
+          "statement",
+          "claim_type",
+          "evidence_state"
+        ],
+        "properties": {
+          "claim_id": {
+            "type": "string"
+          },
+          "statement": {
+            "type": "string"
+          },
+          "claim_type": {
+            "enum": [
+              "direct_observation",
+              "historical_assertion",
+              "testimony",
+              "interpretation",
+              "causal_hypothesis",
+              "theological_claim",
+              "scientific_hypothesis",
+              "institutional_finding",
+              "other"
+            ]
+          },
+          "evidence_state": {
+            "enum": [
+              "UNASSESSED",
+              "SOURCE_LOCATED",
+              "REPORTED",
+              "CORROBORATED",
+              "SUPPORTED",
+              "ESTABLISHED",
+              "CONTESTED",
+              "UNRESOLVED",
+              "NOT_SUPPORTED",
+              "RETRACTED_OR_CORRECTED"
+            ]
+          },
+          "rationale": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "independent_corroboration": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "reference",
+          "independence_assessment",
+          "detail_supported"
+        ],
+        "properties": {
+          "reference": {
+            "type": "string"
+          },
+          "independence_assessment": {
+            "enum": [
+              "independent",
+              "partially_independent",
+              "derivative",
+              "not_independent",
+              "unknown"
+            ]
+          },
+          "detail_supported": {
+            "type": "string"
+          },
+          "limitations": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "competing_explanations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "explanation",
+          "supporting_evidence",
+          "contrary_evidence",
+          "tests_remaining"
+        ],
+        "properties": {
+          "explanation": {
+            "type": "string"
+          },
+          "supporting_evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "contrary_evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "tests_remaining": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "unresolved_questions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "cross_domain_connections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "related_accession_or_topic",
+          "connection_type",
+          "status"
+        ],
+        "properties": {
+          "related_accession_or_topic": {
+            "type": "string"
+          },
+          "connection_type": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "research_lead",
+              "documented_historical_link",
+              "methodological_parallel",
+              "supported_connection",
+              "speculative_interpretation"
+            ]
+          },
+          "rationale": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "revision_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "revision_at_utc",
+          "change_summary",
+          "changed_by",
+          "prior_state_preserved"
+        ],
+        "properties": {
+          "revision_at_utc": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "change_summary": {
+            "type": "string"
+          },
+          "changed_by": {
+            "type": "string"
+          },
+          "prior_state_preserved": {
+            "const": true
+          }
+        }
+      }
+    },
+    "preservation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "original_preserved_or_linked",
+        "immutable_source_separated_from_analysis",
+        "sha256",
+        "storage_reference"
+      ],
+      "properties": {
+        "original_preserved_or_linked": {
+          "type": "boolean"
+        },
+        "immutable_source_separated_from_analysis": {
+          "const": true
+        },
+        "sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[A-Fa-f0-9]{64}$"
+        },
+        "storage_reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "capture_method": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "properties": {
+        "domain_review_status": {
+          "enum": [
+            "not_started",
+            "in_progress",
+            "complete",
+            "not_applicable"
+          ]
+        },
+        "reviewers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "conflicts_of_interest": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "review_notes": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  }
+}
