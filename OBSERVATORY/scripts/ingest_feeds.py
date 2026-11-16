@@ -266,7 +266,7 @@ def run(output_dir: Path, registry: dict) -> dict:
             next_state[page["id"]] = state
         except (urllib.error.URLError, TimeoutError, ValueError, OSError) as exc:
             page_failures.append({"page_id": page.get("id"), "source_url": page.get("url"), "error_type": type(exc).__name__, "message": str(exc)[:400], "recorded_at_utc": utc_now()})
-    state_path.write_text(json.dumps(next_state, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+    state_path.write_text(json.dumps(next_state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     payload = {
         "archive_id": f"OKO-FEED-INGEST-{day}",
         "generated_at_utc": utc_now(),
@@ -282,7 +282,7 @@ def run(output_dir: Path, registry: dict) -> dict:
         "coverage_note": "A feed item is a lead to inspect. Feed inclusion, repetition, metadata hashes, and source class do not establish factual truth or independent corroboration."
     }
     destination.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    summary = {"archive": str(destination), "leads": len(leads), "feeds_succeeded": len(diagnostics), "feeds_failed": len(failures)}
+    summary = {"archive": str(destination), "leads": len(leads), "feeds_succeeded": len(diagnostics), "feeds_failed": len(failures), "pages_checked": len(page_checks), "pages_failed": len(page_failures), "pages_changed": sum(1 for item in page_checks if item["change_state"] == "CHANGED")}
     print(json.dumps(summary, indent=2))
     if not diagnostics and not page_checks:
         raise RuntimeError("No registered feeds or monitored pages succeeded; refusing to treat this run as a healthy collection cycle")
