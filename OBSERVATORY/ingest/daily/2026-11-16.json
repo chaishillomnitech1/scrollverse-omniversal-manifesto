@@ -1,6 +1,6 @@
 {
   "archive_id": "OKO-FEED-INGEST-2026-11-16",
-  "generated_at_utc": "2026-11-16T23:22:52Z",
+  "generated_at_utc": "2026-11-16T23:24:50Z",
   "collector_version": "1.0.0",
   "registry_version": "1.0.0",
   "record_type": "discovery_leads_not_verified_findings",
@@ -8513,7 +8513,7 @@
       "items_discovered": 10,
       "items_limit_reached": false,
       "per_feed_item_limit": 100,
-      "fetched_at_utc": "2026-11-16T23:22:50Z"
+      "fetched_at_utc": "2026-11-16T23:24:45Z"
     },
     {
       "feed_id": "cneos-news",
@@ -8525,7 +8525,7 @@
       "items_discovered": 10,
       "items_limit_reached": false,
       "per_feed_item_limit": 100,
-      "fetched_at_utc": "2026-11-16T23:22:50Z"
+      "fetched_at_utc": "2026-11-16T23:24:45Z"
     },
     {
       "feed_id": "smithsonian-history",
@@ -8537,7 +8537,7 @@
       "items_discovered": 16,
       "items_limit_reached": false,
       "per_feed_item_limit": 100,
-      "fetched_at_utc": "2026-11-16T23:22:50Z"
+      "fetched_at_utc": "2026-11-16T23:24:46Z"
     },
     {
       "feed_id": "smithsonian-science",
@@ -8549,7 +8549,7 @@
       "items_discovered": 20,
       "items_limit_reached": false,
       "per_feed_item_limit": 100,
-      "fetched_at_utc": "2026-11-16T23:22:51Z"
+      "fetched_at_utc": "2026-11-16T23:24:46Z"
     },
     {
       "feed_id": "pew-religion",
@@ -8561,7 +8561,7 @@
       "items_discovered": 100,
       "items_limit_reached": true,
       "per_feed_item_limit": 100,
-      "fetched_at_utc": "2026-11-16T23:22:51Z"
+      "fetched_at_utc": "2026-11-16T23:24:47Z"
     },
     {
       "feed_id": "arxiv-history-science",
@@ -8573,7 +8573,7 @@
       "items_discovered": 3,
       "items_limit_reached": false,
       "per_feed_item_limit": 100,
-      "fetched_at_utc": "2026-11-16T23:22:51Z"
+      "fetched_at_utc": "2026-11-16T23:24:47Z"
     },
     {
       "feed_id": "arxiv-exoplanets",
@@ -8585,7 +8585,7 @@
       "items_discovered": 20,
       "items_limit_reached": false,
       "per_feed_item_limit": 100,
-      "fetched_at_utc": "2026-11-16T23:22:51Z"
+      "fetched_at_utc": "2026-11-16T23:24:47Z"
     },
     {
       "feed_id": "arxiv-neuroscience",
@@ -8597,7 +8597,7 @@
       "items_discovered": 17,
       "items_limit_reached": false,
       "per_feed_item_limit": 100,
-      "fetched_at_utc": "2026-11-16T23:22:51Z"
+      "fetched_at_utc": "2026-11-16T23:24:47Z"
     },
     {
       "feed_id": "arxiv-ai",
@@ -8609,7 +8609,7 @@
       "items_discovered": 100,
       "items_limit_reached": true,
       "per_feed_item_limit": 100,
-      "fetched_at_utc": "2026-11-16T23:22:52Z"
+      "fetched_at_utc": "2026-11-16T23:24:47Z"
     },
     {
       "feed_id": "arxiv-quantum",
@@ -8621,9 +8621,61 @@
       "items_discovered": 100,
       "items_limit_reached": true,
       "per_feed_item_limit": 100,
-      "fetched_at_utc": "2026-11-16T23:22:52Z"
+      "fetched_at_utc": "2026-11-16T23:24:47Z"
     }
   ],
   "feed_failures": [],
+  "page_checks": [
+    {
+      "page_id": "nasa-uap-study",
+      "page_name": "NASA UAP Independent Study",
+      "source_url": "https://science.nasa.gov/uap/",
+      "final_url": "https://science.nasa.gov/uap/",
+      "domains": [
+        "uap_disclosure"
+      ],
+      "content_type": "text/html; charset=UTF-8",
+      "title": "UAP - NASA Science",
+      "content_sha256": "8781954539ef90b38c3cedfde5247127b20200cacb82a463f9766d69b25df4e7",
+      "previous_content_sha256": null,
+      "change_state": "BASELINE",
+      "checked_at_utc": "2026-11-16T23:24:49Z",
+      "review_required": true,
+      "preservation_note": "Page-change metadata only. This hash is not proof of authorship, authenticity, event occurrence, or truth; inspect and accession the underlying source separately."
+    },
+    {
+      "page_id": "archaeology-institute",
+      "page_name": "Archaeological Institute of America / Archaeology Magazine",
+      "source_url": "https://archaeology.org/",
+      "final_url": "https://archaeology.org/",
+      "domains": [
+        "ancient_civilizations"
+      ],
+      "content_type": "text/html; charset=UTF-8",
+      "title": "Archaeology Magazine",
+      "content_sha256": "6f0feaa8b48133e2fc7a08d2129d6884a4fa7c34e81e5b2e70c85570aa246c8f",
+      "previous_content_sha256": null,
+      "change_state": "BASELINE",
+      "checked_at_utc": "2026-11-16T23:24:49Z",
+      "review_required": true,
+      "preservation_note": "Page-change metadata only. This hash is not proof of authorship, authenticity, event occurrence, or truth; inspect and accession the underlying source separately."
+    }
+  ],
+  "page_failures": [
+    {
+      "page_id": "aaro-official",
+      "source_url": "https://www.aaro.mil/",
+      "error_type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden",
+      "recorded_at_utc": "2026-11-16T23:24:49Z"
+    },
+    {
+      "page_id": "nmai-official",
+      "source_url": "https://americanindian.si.edu/",
+      "error_type": "HTTPError",
+      "message": "HTTP Error 403: Forbidden",
+      "recorded_at_utc": "2026-11-16T23:24:50Z"
+    }
+  ],
   "coverage_note": "A feed item is a lead to inspect. Feed inclusion, repetition, metadata hashes, and source class do not establish factual truth or independent corroboration."
 }
