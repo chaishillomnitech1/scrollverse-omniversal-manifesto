@@ -30,7 +30,7 @@ It:
 
 The collector publishes to [`automation/observatory-daily-ingest`](https://github.com/chaishillomnitech1/scrollverse-omniversal-manifesto/tree/automation/observatory-daily-ingest). This branch is intentionally separate from `main`; its daily accessions can be inspected and promoted through normal review. The repository's current Actions integration does not have permission to create pull requests, so the workflow does not attempt that operation or bypass the setting by writing source data directly to the default branch.
 
-The first successful collection cycle captured 396 feed-lead records from 10 successful feeds. Three feeds reached the 100-item per-feed cap, so this is a minimum observed count, not an exhaustive total; repeated URLs across different feeds may also appear as separate lineage records. The NASA Science feed returned malformed XML and has been disabled pending validation. This is a dated first-run observation, not a guarantee of future feed health.
+The first feed cycle captured 396 feed-lead records from 10 successful feeds; three reached the 100-item per-feed cap, so this is a minimum observed count, not an exhaustive total. The NASA Science feed returned malformed XML and is disabled. The first institutional page-monitor cycle established baselines for the NASA UAP and Archaeology Magazine pages; AARO and the Smithsonian National Museum of the American Indian returned HTTP 403 from GitHub Actions and were moved to human-review-only status. These are dated access observations, not claims about the sites' general public availability.
 
 ## Daily archive layout
 
