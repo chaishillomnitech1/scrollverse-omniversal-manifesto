@@ -60,6 +60,3 @@ jobs:
             - Copyrighted article bodies are not copied.
             - Feed failures are recorded in the daily diagnostics.
             - Human review is required before creating a full discovery accession.
-          labels: |
-            observatory
-            automated-ingest
