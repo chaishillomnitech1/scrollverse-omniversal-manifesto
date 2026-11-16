@@ -1,10 +1,10 @@
 {
   "archive_id": "OKO-FEED-INGEST-2026-11-16",
-  "generated_at_utc": "2026-11-16T23:24:50Z",
+  "generated_at_utc": "2026-11-16T23:25:49Z",
   "collector_version": "1.0.0",
   "registry_version": "1.0.0",
   "record_type": "discovery_leads_not_verified_findings",
-  "lead_count": 396,
+  "lead_count": 496,
   "leads": [
     {
       "lead_id": "OKO-LEAD-10A0776C55E31F54D050",
@@ -8500,6 +8500,2106 @@
       "review_state": "UNREVIEWED",
       "truth_assessment": "NOT_ASSESSED",
       "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-199CA8569CA034BA4EE9",
+      "title": "M 6.6 - 148 km WSW of Tual, Indonesia",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tymu",
+      "source_identifier": "urn:earthquake-usgs-gov:us:7000tymu",
+      "published_raw": "2026-11-16T23:18:03.493Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "199ca8569ca034ba4ee98ee603fd70180e58a570523ca9b4e30a61ac84af5624",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-5FD8ACC2A48F6C3FC303",
+      "title": "M 2.5 - 9 km SSW of Willow, Alaska",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wszejn",
+      "source_identifier": "urn:earthquake-usgs-gov:ak:a2026wszejn",
+      "published_raw": "2026-11-16T23:08:16.831Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "5fd8acc2a48f6c3fc3039da4582f4c2835c1cc81758f2f577feb841697a0ba8e",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-9ECFF7AD00AC39C7772E",
+      "title": "M 2.1 - 19 km NE of Nikolaevsk, Alaska",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wsyxuk",
+      "source_identifier": "urn:earthquake-usgs-gov:ak:a2026wsyxuk",
+      "published_raw": "2026-11-16T22:59:05.954Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "9ecff7ad00ac39c7772e8b10af9ba6edbeb73ca8b93b5eeb9656b65eafc53bec",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-541CEDBB85CB59A6B735",
+      "title": "M 4.1 - 43 km S of Jurm, Afghanistan",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tykx",
+      "source_identifier": "urn:earthquake-usgs-gov:us:7000tykx",
+      "published_raw": "2026-11-16T22:50:17.040Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "541cedbb85cb59a6b735fcabfa2c2458aeeaf196ebd2d12c3d33280d3e2eb728",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-FE72F2ABB94D9CB7AEDF",
+      "title": "M 1.7 Explosion - 4 km E of Granite Falls, Washington",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uw714139711",
+      "source_identifier": "urn:earthquake-usgs-gov:uw:714139711",
+      "published_raw": "2026-11-16T22:39:53.930Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "fe72f2abb94d9cb7aedfda30d0103f6246114925c8b7c3fe21c0d53411872d6f",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-BB46D2BF84DE0F68442D",
+      "title": "M 4.6 - 144 km NW of Kavieng, Papua New Guinea",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tymc",
+      "source_identifier": "urn:earthquake-usgs-gov:us:7000tymc",
+      "published_raw": "2026-11-16T22:39:15.040Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "bb46d2bf84de0f68442d112e3886afc311e46c2165f81c5a343a7845bbcfde5f",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-B604A1C8504C0422D815",
+      "title": "M 3.1 - 63 km NNE of Stony River, Alaska",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wsrgct",
+      "source_identifier": "urn:earthquake-usgs-gov:ak:a2026wsrgct",
+      "published_raw": "2026-11-16T22:39:06.902Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "b604a1c8504c0422d8151750afcb1bab9e0297610ba51e093a2032cacb8d0825",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-803E0E0829D5A04CEB5B",
+      "title": "M 2.8 - 16 km NW of Lopez Point, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467222",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467222",
+      "published_raw": "2026-11-16T22:32:23.677Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "803e0e0829d5a04ceb5ba41e577a1bb88f983e00054c7371554e9411532f1873",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-05C83DB92256D34E0D27",
+      "title": "M 4.7 - 77 km WSW of Changuillo, Peru",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tym8",
+      "source_identifier": "urn:earthquake-usgs-gov:us:7000tym8",
+      "published_raw": "2026-11-16T22:31:25.040Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "05c83db92256d34e0d2719e1c30daddd199bab8de2c6fcbb3ea14dd046a0f785",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-BB24236CFBA1A267D2FB",
+      "title": "M 1.0 Quarry Blast - 6 km SW of Ralston, Oklahoma",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026wmld",
+      "source_identifier": "urn:earthquake-usgs-gov:ok:2026wmld",
+      "published_raw": "2026-11-16T22:26:58.763Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "bb24236cfba1a267d2fb7565af872f82fb68c0b90b959d22c3cf6f526cc19fdd",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-7C3D180C63BEF9BA7199",
+      "title": "M 3.6 - 64 km SSE of Unalaska, Alaska",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyma",
+      "source_identifier": "urn:earthquake-usgs-gov:us:7000tyma",
+      "published_raw": "2026-11-16T22:17:13.040Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "7c3d180c63bef9ba7199b661e52465638bdd6f236643aa174a9b012c0d70ffb7",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-E5439D58A6BC7DCDBC93",
+      "title": "M 4.6 - 146 km SSE of Isangel, Vanuatu",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyns",
+      "source_identifier": "urn:earthquake-usgs-gov:us:7000tyns",
+      "published_raw": "2026-11-16T22:15:53.040Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "e5439d58a6bc7dcdbc930e6e8eff04099dbd2020016c350299ad6889b0ce110f",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-BEEF2EC6C1DCA352E4D0",
+      "title": "M 1.8 - 6 km NE of Medford, Oklahoma",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026wmmt",
+      "source_identifier": "urn:earthquake-usgs-gov:ok:2026wmmt",
+      "published_raw": "2026-11-16T22:14:55.307Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "beef2ec6c1dca352e4d0b5e2d2f473187a9e186e35d7d57f41478808b7995889",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-A3E6B2C6B5DDD7E0E683",
+      "title": "M 1.9 - 13 km E of Maricao, Puerto Rico",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71539373",
+      "source_identifier": "urn:earthquake-usgs-gov:pr:71539373",
+      "published_raw": "2026-11-16T22:14:17.180Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "a3e6b2c6b5ddd7e0e683b601f61cb518701d58f69af2ba42624aa95b1d195278",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-187F416C408E61BD14EC",
+      "title": "M 1.2 - 2 km NNW of The Geysers, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467217",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467217",
+      "published_raw": "2026-11-16T22:12:24.539Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "187f416c408e61bd14ec498ba85059444197afdc3ebb410fc5b79ff390117159",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-4B09EDEECA6674C043B1",
+      "title": "M 1.5 Quarry Blast - 7 km WNW of Catoosa, Oklahoma",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026wmmr",
+      "source_identifier": "urn:earthquake-usgs-gov:ok:2026wmmr",
+      "published_raw": "2026-11-16T22:01:02.028Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "4b09edeeca6674c043b1eec927b7917f276afcdc701de4c17529d2f558ccef7b",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-EB58E549D5778C73024D",
+      "title": "M 2.5 - 21 km ESE of Naalehu, Hawaii",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75071182",
+      "source_identifier": "urn:earthquake-usgs-gov:hv:75071182",
+      "published_raw": "2026-11-16T22:00:38.880Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "eb58e549d5778c73024da7653856af2a525ed5f591ffe06f76cdc2703b86b370",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-2B63AF12F60979CF4757",
+      "title": "M 0.7 - 4 km NW of The Geysers, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467242",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467242",
+      "published_raw": "2026-11-16T22:00:24.078Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "2b63af12f60979cf4757e27339867e92416880aa9d9e6848130973bc5394dac5",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-D59D664990520980ACCD",
+      "title": "M 1.7 - 2 km SSW of Anderson Springs, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467237",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467237",
+      "published_raw": "2026-11-16T21:59:53.728Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "d59d664990520980accdcdf2b4bf91f803917e0013f20a55596bd3f86bd74a46",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-8A1A8E52387FE1D43E95",
+      "title": "M 1.5 - 11 km E of Pāhala, Hawaii",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75071042",
+      "source_identifier": "urn:earthquake-usgs-gov:hv:75071042",
+      "published_raw": "2026-11-16T21:58:19.090Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "8a1a8e52387fe1d43e95316cdca1fabdb046e61fe354a97a4d8f57f9f259693c",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-149248C7D2221D536C79",
+      "title": "M 0.6 - 18 km ESE of Anza, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362823",
+      "source_identifier": "urn:earthquake-usgs-gov:ci:41362823",
+      "published_raw": "2026-11-16T21:46:48.805Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "149248c7d2221d536c79bdc84e2469b42247dbf19ad60dd437c08febe6fd7c70",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-71C897510F6165D30AE0",
+      "title": "M 1.3 - 23 km ENE of San Ardo, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467212",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467212",
+      "published_raw": "2026-11-16T21:42:22.331Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "71c897510f6165d30ae03114423ba61c5b221326263622b0ba8b36aac0bee9a0",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-80DF811C24BF08929A88",
+      "title": "M 1.8 - 15 km W of Johannesburg, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362831",
+      "source_identifier": "urn:earthquake-usgs-gov:ci:41362831",
+      "published_raw": "2026-11-16T21:41:30.077Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "80df811c24bf08929a886310e8d28a21967b161d3d03004b2b93bfdf0f0a884e",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-37D7393ABCA15F3ED0EE",
+      "title": "M 2.1 - 17 km SE of Leilani Estates, Hawaii",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75071092",
+      "source_identifier": "urn:earthquake-usgs-gov:hv:75071092",
+      "published_raw": "2026-11-16T21:31:14.970Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "37d7393abca15f3ed0ee985be3c6d9523b0b32aedb9bd21d3ac5dc8ade650285",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-7F05C74F8BCFECB7761E",
+      "title": "M 1.7 - 17 km SSW of Newport Beach, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362815",
+      "source_identifier": "urn:earthquake-usgs-gov:ci:41362815",
+      "published_raw": "2026-11-16T21:26:34.049Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "7f05c74f8bcfecb7761e4494350c563c7a2ad550dd13ae11feaeba9cdd7fedc6",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-4E2055C29747E554AEF3",
+      "title": "M 1.6 - 0 km WSW of Pāhala, Hawaii",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75071117",
+      "source_identifier": "urn:earthquake-usgs-gov:hv:75071117",
+      "published_raw": "2026-11-16T21:23:41.620Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "4e2055c29747e554aef30646212933fa18c49f8f718e7fc167d599cb17e64bc1",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-85C2587FB352E88561FA",
+      "title": "M 1.0 - 15 km SW of Thatcher, Utah",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80164886",
+      "source_identifier": "urn:earthquake-usgs-gov:uu:80164886",
+      "published_raw": "2026-11-16T20:43:46.310Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "85c2587fb352e88561fa48610563572c4f3998f91be3a76ef490f16e4f5deb14",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-5CA49DB070A0934F87D5",
+      "title": "M 0.7 - 8 km NW of The Geysers, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467197",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467197",
+      "published_raw": "2026-11-16T20:32:14.257Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "5ca49db070a0934f87d57e83f77931c0e388ee8a989e7ad219440577c66510ae",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-33F0E0C86C0DF1245ACA",
+      "title": "M 0.6 - 15 km NNE of Milford, Utah",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80164896",
+      "source_identifier": "urn:earthquake-usgs-gov:uu:80164896",
+      "published_raw": "2026-11-16T20:27:55.130Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "33f0e0c86c0df1245aca2a15c7b751b7c897591d2b5bea5bba7300977cac4716",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-9A074EB3D887490293C4",
+      "title": "M 1.6 - 40 km N of Chickaloon, Alaska",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wstsgv",
+      "source_identifier": "urn:earthquake-usgs-gov:ak:a2026wstsgv",
+      "published_raw": "2026-11-16T20:22:46.195Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "9a074eb3d887490293c46b46195ed307eb6e2ad60c5814df77be69a836d329a4",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-CC47C9F5736109B7AE27",
+      "title": "M 0.9 - 18 km E of Little Lake, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362759",
+      "source_identifier": "urn:earthquake-usgs-gov:ci:41362759",
+      "published_raw": "2026-11-16T20:21:05.282Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "cc47c9f5736109b7ae27997d2106ee156411310c7651553d5bd069aff8f5b27c",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-0EF0089ED5A89D1D961A",
+      "title": "M 0.9 - 6 km WNW of Cobb, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467192",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467192",
+      "published_raw": "2026-11-16T20:16:38.915Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "0ef0089ed5a89d1d961a897e97ae04d0d45e1d9d3a3670c731c5674e36500cd4",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-78F5E4C5DB1AB0EFF257",
+      "title": "M 1.9 - 22 km N of Fishhook, Alaska",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wsshnq",
+      "source_identifier": "urn:earthquake-usgs-gov:ak:a2026wsshnq",
+      "published_raw": "2026-11-16T19:44:38.224Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "78f5e4c5db1ab0eff2579314ca27adcaf4894b8378b8806f6807a6c665e011d4",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-CD890088FE6E5427BCE4",
+      "title": "M 1.3 Quarry Blast - 5 km N of Mill Creek, Oklahoma",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026wmid",
+      "source_identifier": "urn:earthquake-usgs-gov:ok:2026wmid",
+      "published_raw": "2026-11-16T19:42:33.050Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "cd890088fe6e5427bce4dea635c1a3350dea773821828c4b19f83380e3c611c0",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-9DA2998552AE8FAD4D75",
+      "title": "M 2.1 - 65 km WNW of Tyonek, Alaska",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wsmwkd",
+      "source_identifier": "urn:earthquake-usgs-gov:ak:a2026wsmwkd",
+      "published_raw": "2026-11-16T19:40:22.466Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "9da2998552ae8fad4d7555c5e9d9ce5e75d4a88b8ffc6efe2c268e2297114192",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-8940AE89C80E059E2C32",
+      "title": "M 2.6 - 15 km ESE of Ninilchik, Alaska",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wrzrqn",
+      "source_identifier": "urn:earthquake-usgs-gov:ak:a2026wrzrqn",
+      "published_raw": "2026-11-16T19:38:30.593Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "8940ae89c80e059e2c3212a7610933e2d992d8f64ca708ebd6c8d856b9cc356b",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-0F18AA5632995CBA9955",
+      "title": "M 2.3 - 14 km ESE of Clam Gulch, Alaska",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wshmtq",
+      "source_identifier": "urn:earthquake-usgs-gov:ak:a2026wshmtq",
+      "published_raw": "2026-11-16T19:30:17.307Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "0f18aa5632995cba99551b197e4f1a3c1e914605dac6f871bb25f934b70f6ec3",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-88E59FF9E92B9C0C870A",
+      "title": "M 3.9 - Rat Islands, Aleutian Islands, Alaska",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wslxjs",
+      "source_identifier": "urn:earthquake-usgs-gov:ak:a2026wslxjs",
+      "published_raw": "2026-11-16T19:30:11.956Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "88e59ff9e92b9c0c870a09e0d8e5b812a17e43e6e5e9111fef6c056473801c30",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-83E3F0E0ACC7102E6CE3",
+      "title": "M 3.7 - 55 km ENE of Pedro Bay, Alaska",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wsedpt",
+      "source_identifier": "urn:earthquake-usgs-gov:ak:a2026wsedpt",
+      "published_raw": "2026-11-16T19:26:39.874Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "83e3f0e0acc7102e6ce307a4737718a5b2c31fb6c0331d9b7d5c31a003e8232c",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-67E5D6A2EFD5196CC31C",
+      "title": "M 0.7 - 4 km NNW of Anza, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362703",
+      "source_identifier": "urn:earthquake-usgs-gov:ci:41362703",
+      "published_raw": "2026-11-16T19:23:08.717Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "67e5d6a2efd5196cc31c02ff4fe8c310b0c2eac6150fde4dbd33992223f21e08",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-AF024134A0E527C7C9B4",
+      "title": "M 1.2 - 15 km NNE of Milford, Utah",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80164881",
+      "source_identifier": "urn:earthquake-usgs-gov:uu:80164881",
+      "published_raw": "2026-11-16T19:21:05.450Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "af024134a0e527c7c9b4ef9fb7f2b56994779d980e8bf15999d9f4abfb953d36",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-72F39ED75113FC1FC520",
+      "title": "M 0.9 - 6 km N of Lake Henshaw, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362791",
+      "source_identifier": "urn:earthquake-usgs-gov:ci:41362791",
+      "published_raw": "2026-11-16T19:20:50.418Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "72f39ed75113fc1fc52049c27d259be60dae9302c9db17bf9c6781e4b227d2cb",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-9C920C1205C5290CC729",
+      "title": "M 0.7 - 8 km NW of The Geysers, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467167",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467167",
+      "published_raw": "2026-11-16T19:15:04.283Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "9c920c1205c5290cc7298c4fd33ad37550a029d42a1f67c30275b041bb11e5fd",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-07A17FA75FACAEC97B0E",
+      "title": "M 0.6 - 16 km ESE of Anza, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362767",
+      "source_identifier": "urn:earthquake-usgs-gov:ci:41362767",
+      "published_raw": "2026-11-16T19:13:14.599Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "07a17fa75facaec97b0e49e6b602a6829b57d419820287b889af78aa2488112b",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-43E0046FF00554C08D25",
+      "title": "M 1.1 - 3 km ESE of San Jacinto, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362783",
+      "source_identifier": "urn:earthquake-usgs-gov:ci:41362783",
+      "published_raw": "2026-11-16T19:13:10.594Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "43e0046ff00554c08d2513b364d1bae6d07aee551f27dca106d9b49e7957b847",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-967F2FD480E79271CF3C",
+      "title": "M 1.1 - 5 km WNW of Cobb, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467162",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467162",
+      "published_raw": "2026-11-16T19:12:29.391Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "967f2fd480e79271cf3c38c2adf1688c8b8f42f7a4d422fea142216d32ace9de",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-84CC6CDDE8B3DD07F156",
+      "title": "M 1.1 - 16 km NNE of Milford, Utah",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80164846",
+      "source_identifier": "urn:earthquake-usgs-gov:uu:80164846",
+      "published_raw": "2026-11-16T19:10:39.770Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "84cc6cdde8b3dd07f15650e7ad12fb5d14a64357115e23b6326ef3e15b1b9a47",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-224BD998C3790EA97A46",
+      "title": "M 1.6 - 15 km NNE of Milford, Utah",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80164841",
+      "source_identifier": "urn:earthquake-usgs-gov:uu:80164841",
+      "published_raw": "2026-11-16T19:08:33.230Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "224bd998c3790ea97a46dadaa87c917e7dae0bedee14d8e4d6634c91dff04282",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-7FA67E0D37BD4B0D19A4",
+      "title": "M 2.0 - 15 km ESE of Anza, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362751",
+      "source_identifier": "urn:earthquake-usgs-gov:ci:41362751",
+      "published_raw": "2026-11-16T19:07:39.080Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "7fa67e0d37bd4b0d19a4d2a7359cf182bb8990b02e113609ae020cd431a12b40",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-648F4989C71C31A0271F",
+      "title": "M 0.7 - 58 km SE of West Yellowstone, Montana",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80164876",
+      "source_identifier": "urn:earthquake-usgs-gov:uu:80164876",
+      "published_raw": "2026-11-16T19:05:00.360Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "648f4989c71c31a0271f0cca239b7a81fb581191d9d7c1395d57e76ca051a05a",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-1BA45EF53BF847C6E257",
+      "title": "M 1.7 - 6 km WSW of Gilroy, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467152",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467152",
+      "published_raw": "2026-11-16T18:55:50.048Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "1ba45ef53bf847c6e25727b639db2d60a5d1272c77d9d38ed702ad339720ec07",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-CBAAC1112BC11E84DEB5",
+      "title": "M 2.0 - 17 km E of Pearsall, Texas",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026woibya",
+      "source_identifier": "urn:earthquake-usgs-gov:tx:2026woibya",
+      "published_raw": "2026-11-16T18:55:45.722Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "cbaac1112bc11e84deb5d75d834ba2e597cd6a16a60b573f39d397403e77d085",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-C17079599C0072993E64",
+      "title": "M 1.9 - 41 km S of Goldfield, Nevada",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00927055",
+      "source_identifier": "urn:earthquake-usgs-gov:nn:00927055",
+      "published_raw": "2026-11-16T18:54:10.285Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "c17079599c0072993e6421e7fc3332cf20a445769ac5118422d6edda206d8ee1",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-EAD3D65FC73BA0BDA9DF",
+      "title": "M 1.4 - 67 km WNW of Ninilchik, Alaska",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wsqpvr",
+      "source_identifier": "urn:earthquake-usgs-gov:ak:a2026wsqpvr",
+      "published_raw": "2026-11-16T18:49:45.170Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "ead3d65fc73ba0bda9df2ddc10c3f08f53ea191dae9b563ad9a8fe931bd0e824",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-A73BE24CEACB804387DE",
+      "title": "M 0.6 - 6 km NW of The Geysers, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467147",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467147",
+      "published_raw": "2026-11-16T18:44:54.167Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "a73be24ceacb804387de8555f7c194c60f21336ea2753626b3d9a32f73f78bd9",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-477D602E85BE8F6EDF02",
+      "title": "M 1.6 - 119 km NW of Yakutat, Alaska",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wsqdgi",
+      "source_identifier": "urn:earthquake-usgs-gov:ak:a2026wsqdgi",
+      "published_raw": "2026-11-16T18:35:16.523Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "477d602e85be8f6edf024c265c9f8a75e936c92e8b03605639de6e088f964fb0",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-9903269F7B9451788155",
+      "title": "M 1.6 - 55 km E of McCarthy, Alaska",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wspwok",
+      "source_identifier": "urn:earthquake-usgs-gov:ak:a2026wspwok",
+      "published_raw": "2026-11-16T18:28:11.817Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "9903269f7b94517881552d7f59ead1292c536d273f34a4094acf657092131303",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-00D773403C09B7860505",
+      "title": "M 5.4 - 95 km WSW of Changuillo, Peru",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tykh",
+      "source_identifier": "urn:earthquake-usgs-gov:us:7000tykh",
+      "published_raw": "2026-11-16T18:22:49.596Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "00d773403c09b78605056b939ad2bbb4ddc1d95fd07f4c3b7e5c7b4786ba7358",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-01239FC1B88D36E2C0A3",
+      "title": "M 4.8 - 28 km SW of Changuillo, Peru",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tykk",
+      "source_identifier": "urn:earthquake-usgs-gov:us:7000tykk",
+      "published_raw": "2026-11-16T18:18:13.588Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "01239fc1b88d36e2c0a3766159858cecdeb7c4bcd590cfbf4d9c6c79f836da3b",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-11FFE1984E66FA3C515E",
+      "title": "M 2.0 - 1 km NNW of La Habra, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362735",
+      "source_identifier": "urn:earthquake-usgs-gov:ci:41362735",
+      "published_raw": "2026-11-16T17:45:00.201Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "11ffe1984e66fa3c515efcb3f9a32d2e0984b3e71bdcdb2c183adb7cc85bebe7",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-592E1C02A5A65B75F09B",
+      "title": "M 0.5 - 6 km NW of The Geysers, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467137",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467137",
+      "published_raw": "2026-11-16T17:39:34.806Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "592e1c02a5a65b75f09ba2bcbc2e143cf64fb18601569e23a13907496ea47dd4",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-2B8E8D165AAB15C3B31F",
+      "title": "M 0.2 - 8 km W of Cobb, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467132",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467132",
+      "published_raw": "2026-11-16T17:30:10.045Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "2b8e8d165aab15c3b31fb574122ca37679c227f80c0297511997076f65bb3cbb",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-2BE9BC29806D30D088F7",
+      "title": "M 0.8 - 6 km NW of The Geysers, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467127",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467127",
+      "published_raw": "2026-11-16T17:24:49.664Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "2be9bc29806d30d088f72f58a1c6337a1c3e4327a3d1dda4bdb1763c88af6f52",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-D709267E66A01B8DB18F",
+      "title": "M 0.7 - 7 km NNW of West Yellowstone, Montana",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80164871",
+      "source_identifier": "urn:earthquake-usgs-gov:uu:80164871",
+      "published_raw": "2026-11-16T17:16:53.560Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "d709267e66a01b8db18f84ef85d644513bdec639c0c849c29d69485cd5fd41f5",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-6B4E4A804C9AE7D34A78",
+      "title": "M 2.0 - 14 km ESE of Hidden Valley Lake, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467102",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467102",
+      "published_raw": "2026-11-16T17:12:22.464Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "6b4e4a804c9ae7d34a78821c5a240ae376884f112539f982def7b288251a3e38",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-8004F3D105648CD215F6",
+      "title": "M 1.0 - 3 km W of The Geysers, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467112",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467112",
+      "published_raw": "2026-11-16T17:10:08.678Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "8004f3d105648cd215f6a0bb029eb9afe353dcbec76ef78e7a034a9f96ff350c",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-D85B0D5C3F06640E463C",
+      "title": "M 1.4 - 2 km NNW of Crockett, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467097",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467097",
+      "published_raw": "2026-11-16T16:52:21.337Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "d85b0d5c3f06640e463c88ea718a83fa62db2e257771419d24c338c45aa5f86e",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-26199449F9405EB21BDC",
+      "title": "M 1.1 - 2 km E of Mount Nebo, Utah",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80164851",
+      "source_identifier": "urn:earthquake-usgs-gov:uu:80164851",
+      "published_raw": "2026-11-16T16:52:16.180Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "26199449f9405eb21bdc4e6226c7cc6e778455c0fb897ee7f2c552497f893bf6",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-783278CA41A05B44183A",
+      "title": "M 1.8 - 15 km NNE of Milford, Utah",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80164856",
+      "source_identifier": "urn:earthquake-usgs-gov:uu:80164856",
+      "published_raw": "2026-11-16T16:46:40.230Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "783278ca41a05b44183a1b0cb6e82ab5e629176a5c251b892e9779633ecfad90",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-8B0094CDC4795060D7BE",
+      "title": "M 0.6 - 6 km WNW of Cobb, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467107",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467107",
+      "published_raw": "2026-11-16T16:40:08.258Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "8b0094cdc4795060d7be7dfd27085afd113313771a2ad710526a2224d152fe41",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-F638DEDA32FED54C91CA",
+      "title": "M 3.2 - 164 km W of Trinidad, California",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyk2",
+      "source_identifier": "urn:earthquake-usgs-gov:us:7000tyk2",
+      "published_raw": "2026-11-16T16:38:40.208Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "f638deda32fed54c91ca2f4aafefb4cf7eea706a3d995d8f5b42190c4fe4b719",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-4EFA58737FFC9357BB6B",
+      "title": "M 1.3 - 15 km NNE of Milford, Utah",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80164861",
+      "source_identifier": "urn:earthquake-usgs-gov:uu:80164861",
+      "published_raw": "2026-11-16T16:38:09.440Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "4efa58737ffc9357bb6b114f19f3692b562dcf3138158a95285bda59fc7424ae",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-25FA4B4822402EA53F76",
+      "title": "M 1.1 - 85 km NW of Karluk, Alaska",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wsmeqj",
+      "source_identifier": "urn:earthquake-usgs-gov:ak:a2026wsmeqj",
+      "published_raw": "2026-11-16T16:36:46.199Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "25fa4b4822402ea53f7677bbe7303c26b61a343067eb3fd570fec374a65fe035",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-A4F8737EC59D37C0B867",
+      "title": "M 1.5 - 6 km W of Malibu, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362711",
+      "source_identifier": "urn:earthquake-usgs-gov:ci:41362711",
+      "published_raw": "2026-11-16T16:34:47.012Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "a4f8737ec59d37c0b8676fa123bf2096bba22f67d7c685f0a8856c6c0b99b86a",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-2702C982AEE739B73C07",
+      "title": "M 0.7 - 6 km NW of The Geysers, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467092",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467092",
+      "published_raw": "2026-11-16T16:18:28.057Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "2702c982aee739b73c076de8b146b36507296b7a20a55e42484d532df2020e6c",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-903EB9BBCD8DC6F2957B",
+      "title": "M 1.1 - 2 km WNW of The Geysers, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467077",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467077",
+      "published_raw": "2026-11-16T15:57:20.972Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "903eb9bbcd8dc6f2957bbecaeafe0f61571966cd11838f5b0fa860a6fccf0d55",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-D4614130CE74384C9A74",
+      "title": "M 2.8 - 11 km SSE of Stonewall Gap, Colorado",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tykc",
+      "source_identifier": "urn:earthquake-usgs-gov:us:7000tykc",
+      "published_raw": "2026-11-16T15:48:29.040Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "d4614130ce74384c9a742702f1f83ee5e89a49bd3ae443dd217a42201772c42c",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-0A26F5950B2EC214A1C2",
+      "title": "M 4.6 - 113 km ESE of Wadomari, Japan",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyjz",
+      "source_identifier": "urn:earthquake-usgs-gov:us:7000tyjz",
+      "published_raw": "2026-11-16T15:29:06.040Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "0a26f5950b2ec214a1c295bf3f074097926b924e178645bc62e28d0b1b2c1f6c",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-2E1C473BF5A1CF4C4D91",
+      "title": "M 2.2 - 47 km NE of Chase, Alaska",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wsjvjc",
+      "source_identifier": "urn:earthquake-usgs-gov:ak:a2026wsjvjc",
+      "published_raw": "2026-11-16T15:27:45.661Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "2e1c473bf5a1cf4c4d91a10a1ed4904fba23febb2e3a7b261e80d9cc199c3bf2",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-81B9423C416CD339BA35",
+      "title": "M 4.8 - 166 km N of Caluula, Somalia",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyjy",
+      "source_identifier": "urn:earthquake-usgs-gov:us:7000tyjy",
+      "published_raw": "2026-11-16T15:20:19.040Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "81b9423c416cd339ba35dce64b839a9fdf391558cc945ff90146963516f672b7",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-74512D2660668EF79943",
+      "title": "M 4.5 - 78 km S of Severo-Kuril’sk, Russia",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyjx",
+      "source_identifier": "urn:earthquake-usgs-gov:us:7000tyjx",
+      "published_raw": "2026-11-16T15:06:45.040Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "74512d2660668ef799437fa266e0c452cafa3ca97f21e5797ea787cdd51c8384",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-6E6891D155DFE900BF35",
+      "title": "M 2.1 - 15 km NNE of Milford, Utah",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80164866",
+      "source_identifier": "urn:earthquake-usgs-gov:uu:80164866",
+      "published_raw": "2026-11-16T14:48:29.730Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "6e6891d155dfe900bf350d47425e4ff7b59b5c72abe4cd78d9138236ee0d68af",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-D3E5B070633DC8D854EB",
+      "title": "M 1.5 - 10 km ENE of Borrego Springs, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362719",
+      "source_identifier": "urn:earthquake-usgs-gov:ci:41362719",
+      "published_raw": "2026-11-16T14:47:28.780Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "d3e5b070633dc8d854eb8ca28272341c330ac1975d4a7ed257e6b1d410a44973",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-94A43D1BE684A0E02E44",
+      "title": "M 1.7 - 43 km N of Kernville, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362695",
+      "source_identifier": "urn:earthquake-usgs-gov:ci:41362695",
+      "published_raw": "2026-11-16T14:42:18.551Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "94a43d1be684a0e02e44692f87c0a84788f400c41e6ade0c96d21e92d8a601bf",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-C73A3CFB0B1A0A9A0CE4",
+      "title": "M 1.1 - 12 km NNE of Cabazon, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41362727",
+      "source_identifier": "urn:earthquake-usgs-gov:ci:41362727",
+      "published_raw": "2026-11-16T14:41:01.360Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "c73a3cfb0b1a0a9a0ce4196032df7e137b8e908a759c0dd7b370d4ce0f65cccc",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-B5FEF9B73E7F4F242FD0",
+      "title": "M 0.4 - 6 km W of Cobb, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467072",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467072",
+      "published_raw": "2026-11-16T14:24:52.371Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "b5fef9b73e7f4f242fd0e2ca075471255e13b9dbb0a5976a3d4ff85e0324a15d",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-C2843AA4E6F2745419C3",
+      "title": "M 1.5 - 6 km SW of Imboden, Arkansas",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nm60506578",
+      "source_identifier": "urn:earthquake-usgs-gov:nm:60506578",
+      "published_raw": "2026-11-16T14:08:52.000Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "c2843aa4e6f2745419c34b0ff090ed698cb5c7b4c996e89050f26804e0602606",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-97A2D7D2466B82F1A3B7",
+      "title": "M 1.3 - 3 km NNW of The Geysers, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467067",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467067",
+      "published_raw": "2026-11-16T13:42:23.096Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "97a2d7d2466b82f1a3b7b75859449186ab3492d32853833a97eb06c6c64dbf83",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-F5B91BF039AD891739DD",
+      "title": "M 1.0 - 6 km NW of The Geysers, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467062",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467062",
+      "published_raw": "2026-11-16T12:43:41.666Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "f5b91bf039ad891739dddda9a953a88a1315169ebfe0a14dc295d1dfdcbfa9b3",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-14DABFD3B2C1E941407B",
+      "title": "M 2.8 - 39 km ESE of Yakutat, Alaska",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wsdusl",
+      "source_identifier": "urn:earthquake-usgs-gov:ak:a2026wsdusl",
+      "published_raw": "2026-11-16T12:40:43.040Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "14dabfd3b2c1e941407bf993a80036576b90eed79a441988b4653aae5d0406f0",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-21E37A17D279BC9FE4D4",
+      "title": "M 0.7 - 5 km W of Cobb, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467047",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467047",
+      "published_raw": "2026-11-16T12:08:37.430Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "21e37a17d279bc9fe4d428ad8d8b04a1da8bfcc3ce0a5c0049ed931af911a518",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-D7CB81BA6469AA299976",
+      "title": "M 1.9 - 4 km SSE of Pittsburg, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467037",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467037",
+      "published_raw": "2026-11-16T12:07:25.488Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "d7cb81ba6469aa2999762b20d422032b0ebc9193993443ff17273bf986b6590c",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-198343F98ADD637C5EFB",
+      "title": "M 2.4 - 20 km WSW of Eunice, New Mexico",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tyjn",
+      "source_identifier": "urn:earthquake-usgs-gov:us:7000tyjn",
+      "published_raw": "2026-11-16T12:04:22.040Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "198343f98add637c5efb3f5027652cd41b5a37a2c7850bba991499a83dbf04db",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-D184B8932F20282F7856",
+      "title": "M 2.3 - 60 km SE of Denali National Park, Alaska",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wscybc",
+      "source_identifier": "urn:earthquake-usgs-gov:ak:a2026wscybc",
+      "published_raw": "2026-11-16T12:01:06.373Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "d184b8932f20282f78564e1167e5db8c9621445301519a3340af971b4097ba8a",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-E27B9A2C25AC4412B6D0",
+      "title": "M 2.0 - 64 km E of Lime Village, Alaska",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wscccx",
+      "source_identifier": "urn:earthquake-usgs-gov:ak:a2026wscccx",
+      "published_raw": "2026-11-16T11:34:05.967Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "e27b9a2c25ac4412b6d01d19529684620518b7c83afb3fb6f208c50ad89b7f33",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-3D10EE40D2BFC070749F",
+      "title": "M 1.5 - 15 km S of Tres Pinos, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467032",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467032",
+      "published_raw": "2026-11-16T11:32:24.363Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "3d10ee40d2bfc070749f727e07b7807951566964bd4d5ee6a759ddd30636a15c",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-65D1FE8DDCDAC3329C56",
+      "title": "M 1.3 - 19 km W of Four Mile Road, Alaska",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026wryiwh",
+      "source_identifier": "urn:earthquake-usgs-gov:ak:a2026wryiwh",
+      "published_raw": "2026-11-16T09:41:56.782Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "65d1fe8ddcdac3329c5619bd2303e70616c3c088f09a018fe4fef7f6c274e3e5",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-5344D23754A877826F96",
+      "title": "M 2.0 - 6 km WNW of Walker, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467022",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467022",
+      "published_raw": "2026-11-16T09:37:22.437Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "5344d23754a877826f96f035a982b45dd1d9324edddfa8f0b26927d7287a35dc",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-A39D160FB4FCDA785BB3",
+      "title": "M 0.7 - 7 km NW of The Geysers, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467017",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467017",
+      "published_raw": "2026-11-16T09:17:41.019Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "a39d160fb4fcda785bb34bb8dcd2f8094efe44b9465a51f0ee9933b660e989dc",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
+    },
+    {
+      "lead_id": "OKO-LEAD-498DAEB581385573350A",
+      "title": "M 0.7 - 10 km NW of The Geysers, CA",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75467012",
+      "source_identifier": "urn:earthquake-usgs-gov:nc:75467012",
+      "published_raw": "2026-11-16T09:13:31.250Z",
+      "creator_or_author": null,
+      "feed_id": "usgs-earthquakes-week",
+      "feed_name": "USGS Earthquake Hazards Program — All Earthquakes, Past 7 Days",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "source_class": "government_science_dataset",
+      "domains": [
+        "unexplained_phenomena"
+      ],
+      "first_seen_utc": "2026-11-16T23:25:49Z",
+      "metadata_sha256": "498daeb581385573350ae389763ee53c07480a1e4a79c0af1efacc223f9f6bbe",
+      "discovery_state": "SOURCE_LOCATED",
+      "review_state": "UNREVIEWED",
+      "truth_assessment": "NOT_ASSESSED",
+      "preservation_note": "Original source remains at source_url. This record preserves discovery metadata and lineage, not the copyrighted article body."
     }
   ],
   "feed_diagnostics": [
@@ -8513,7 +10613,7 @@
       "items_discovered": 10,
       "items_limit_reached": false,
       "per_feed_item_limit": 100,
-      "fetched_at_utc": "2026-11-16T23:24:45Z"
+      "fetched_at_utc": "2026-11-16T23:25:47Z"
     },
     {
       "feed_id": "cneos-news",
@@ -8525,7 +10625,7 @@
       "items_discovered": 10,
       "items_limit_reached": false,
       "per_feed_item_limit": 100,
-      "fetched_at_utc": "2026-11-16T23:24:45Z"
+      "fetched_at_utc": "2026-11-16T23:25:47Z"
     },
     {
       "feed_id": "smithsonian-history",
@@ -8537,7 +10637,7 @@
       "items_discovered": 16,
       "items_limit_reached": false,
       "per_feed_item_limit": 100,
-      "fetched_at_utc": "2026-11-16T23:24:46Z"
+      "fetched_at_utc": "2026-11-16T23:25:48Z"
     },
     {
       "feed_id": "smithsonian-science",
@@ -8549,7 +10649,7 @@
       "items_discovered": 20,
       "items_limit_reached": false,
       "per_feed_item_limit": 100,
-      "fetched_at_utc": "2026-11-16T23:24:46Z"
+      "fetched_at_utc": "2026-11-16T23:25:48Z"
     },
     {
       "feed_id": "pew-religion",
@@ -8561,7 +10661,7 @@
       "items_discovered": 100,
       "items_limit_reached": true,
       "per_feed_item_limit": 100,
-      "fetched_at_utc": "2026-11-16T23:24:47Z"
+      "fetched_at_utc": "2026-11-16T23:25:48Z"
     },
     {
       "feed_id": "arxiv-history-science",
@@ -8573,7 +10673,7 @@
       "items_discovered": 3,
       "items_limit_reached": false,
       "per_feed_item_limit": 100,
-      "fetched_at_utc": "2026-11-16T23:24:47Z"
+      "fetched_at_utc": "2026-11-16T23:25:48Z"
     },
     {
       "feed_id": "arxiv-exoplanets",
@@ -8585,7 +10685,7 @@
       "items_discovered": 20,
       "items_limit_reached": false,
       "per_feed_item_limit": 100,
-      "fetched_at_utc": "2026-11-16T23:24:47Z"
+      "fetched_at_utc": "2026-11-16T23:25:48Z"
     },
     {
       "feed_id": "arxiv-neuroscience",
@@ -8597,7 +10697,7 @@
       "items_discovered": 17,
       "items_limit_reached": false,
       "per_feed_item_limit": 100,
-      "fetched_at_utc": "2026-11-16T23:24:47Z"
+      "fetched_at_utc": "2026-11-16T23:25:48Z"
     },
     {
       "feed_id": "arxiv-ai",
@@ -8609,7 +10709,7 @@
       "items_discovered": 100,
       "items_limit_reached": true,
       "per_feed_item_limit": 100,
-      "fetched_at_utc": "2026-11-16T23:24:47Z"
+      "fetched_at_utc": "2026-11-16T23:25:48Z"
     },
     {
       "feed_id": "arxiv-quantum",
@@ -8621,7 +10721,19 @@
       "items_discovered": 100,
       "items_limit_reached": true,
       "per_feed_item_limit": 100,
-      "fetched_at_utc": "2026-11-16T23:24:47Z"
+      "fetched_at_utc": "2026-11-16T23:25:48Z"
+    },
+    {
+      "feed_id": "usgs-earthquakes-week",
+      "feed_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "final_url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom",
+      "http_content_type": "application/atom+xml; charset=utf-8",
+      "http_result": "success",
+      "feed_payload_sha256": "d70dc1776942bca6904507dd06315484dd4827f83aab2007156f2076b9e9123a",
+      "items_discovered": 100,
+      "items_limit_reached": true,
+      "per_feed_item_limit": 100,
+      "fetched_at_utc": "2026-11-16T23:25:49Z"
     }
   ],
   "feed_failures": [],
@@ -8636,10 +10748,10 @@
       ],
       "content_type": "text/html; charset=UTF-8",
       "title": "UAP - NASA Science",
-      "content_sha256": "8781954539ef90b38c3cedfde5247127b20200cacb82a463f9766d69b25df4e7",
-      "previous_content_sha256": null,
-      "change_state": "BASELINE",
-      "checked_at_utc": "2026-11-16T23:24:49Z",
+      "content_sha256": "e8024a183540a75763d8025798bb8b535c79cd67e0a8cc9583c6a83451ec987d",
+      "previous_content_sha256": "8781954539ef90b38c3cedfde5247127b20200cacb82a463f9766d69b25df4e7",
+      "change_state": "CHANGED",
+      "checked_at_utc": "2026-11-16T23:25:49Z",
       "review_required": true,
       "preservation_note": "Page-change metadata only. This hash is not proof of authorship, authenticity, event occurrence, or truth; inspect and accession the underlying source separately."
     },
@@ -8653,29 +10765,14 @@
       ],
       "content_type": "text/html; charset=UTF-8",
       "title": "Archaeology Magazine",
-      "content_sha256": "6f0feaa8b48133e2fc7a08d2129d6884a4fa7c34e81e5b2e70c85570aa246c8f",
-      "previous_content_sha256": null,
-      "change_state": "BASELINE",
-      "checked_at_utc": "2026-11-16T23:24:49Z",
+      "content_sha256": "b566cfc2755bde06351e11f891d63b18ca5c7d97829d0485ef822f2780666420",
+      "previous_content_sha256": "6f0feaa8b48133e2fc7a08d2129d6884a4fa7c34e81e5b2e70c85570aa246c8f",
+      "change_state": "CHANGED",
+      "checked_at_utc": "2026-11-16T23:25:49Z",
       "review_required": true,
       "preservation_note": "Page-change metadata only. This hash is not proof of authorship, authenticity, event occurrence, or truth; inspect and accession the underlying source separately."
     }
   ],
-  "page_failures": [
-    {
-      "page_id": "aaro-official",
-      "source_url": "https://www.aaro.mil/",
-      "error_type": "HTTPError",
-      "message": "HTTP Error 403: Forbidden",
-      "recorded_at_utc": "2026-11-16T23:24:49Z"
-    },
-    {
-      "page_id": "nmai-official",
-      "source_url": "https://americanindian.si.edu/",
-      "error_type": "HTTPError",
-      "message": "HTTP Error 403: Forbidden",
-      "recorded_at_utc": "2026-11-16T23:24:50Z"
-    }
-  ],
+  "page_failures": [],
   "coverage_note": "A feed item is a lead to inspect. Feed inclusion, repetition, metadata hashes, and source class do not establish factual truth or independent corroboration."
 }
