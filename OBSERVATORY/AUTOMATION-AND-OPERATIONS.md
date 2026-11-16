@@ -12,7 +12,7 @@ It:
 5. Records titles, canonical HTTPS links, publication metadata, author when available, source/feed lineage, first-seen time, and a deterministic metadata SHA-256.
 6. Deduplicates repeated feed entries and preserves their first-seen timestamp within each daily accession.
 7. Records feed failures rather than silently omitting them.
-8. Opens or updates a pull request for human review; it does not push unreviewed source records directly to main.
+8. Publishes daily source metadata to the persistent `automation/observatory-daily-ingest` review branch. It does not push unreviewed source records directly to main. A separate branch keeps daily accessions durable without bypassing repository review controls.
 
 ## What the collector does not do
 
@@ -23,6 +23,12 @@ It:
 - It does not automatically create a completed discovery record or change an evidence state to corroborated, supported, or established.
 - It does not currently fetch monitored pages listed with `manual_review_only`.
 - It does not claim full six-domain coverage. UAP official pages, Indigenous/community knowledge, cryptid/paranormal reports, and local oral histories require careful source onboarding, consent, and human review.
+
+## Persistent review branch
+
+The collector publishes to [`automation/observatory-daily-ingest`](https://github.com/chaishillomnitech1/scrollverse-omniversal-manifesto/tree/automation/observatory-daily-ingest). This branch is intentionally separate from `main`; its daily accessions can be inspected and promoted through normal review. The repository's current Actions integration does not have permission to create pull requests, so the workflow does not attempt that operation or bypass the setting by writing source data directly to the default branch.
+
+The first successful collection cycle captured 396 feed-lead records from 10 successful feeds. Three feeds reached the 100-item per-feed cap, so this is a minimum observed count, not an exhaustive total; repeated URLs across different feeds may also appear as separate lineage records. The NASA Science feed returned malformed XML and has been disabled pending validation. This is a dated first-run observation, not a guarantee of future feed health.
 
 ## Daily archive layout
 

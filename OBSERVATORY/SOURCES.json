@@ -12,7 +12,8 @@
         "unexplained_phenomena"
       ],
       "source_class": "government_science",
-      "enabled": true
+      "enabled": false,
+      "disabled_reason": "The first live collection returned malformed XML (ParseError). Keep the official source listed, but do not collect it until its feed format is corrected or a validated alternate endpoint is registered."
     },
     {
       "id": "nasa-news",
