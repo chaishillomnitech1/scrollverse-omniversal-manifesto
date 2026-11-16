@@ -1,6 +1,5 @@
 {
   "register_id": "OKO-REGISTER-0001",
-  "created_at_utc": "2026-11-16T00:00:00Z",
   "register_status": "INITIAL_SOURCE_CROSSWALK",
   "scope_note": "This is a first-pass index of existing ScrollVerse artifacts located through GitHub code and repository inspection. It is not an exhaustive inventory. Titles, supplied descriptions, and repository presence are not proof of deployment, historical truth, geodetic validity, scientific effect, or independent verification.",
   "records": [
@@ -78,5 +77,6 @@
     "Inspect the full repository history and all files under blueprints-geodetic-pyramids; distinguish blueprint design from physical-world verification.",
     "Trace the source records behind Abundantia Ix Digital Pyramids and Atlantis City Pyramid Cutaway; recover original files, dates, and source conversations.",
     "Search the broader repository fleet for additional pyramid artifacts before declaring this crosswalk complete."
-  ]
+  ],
+  "created_on": "2026-11-16"
 }
