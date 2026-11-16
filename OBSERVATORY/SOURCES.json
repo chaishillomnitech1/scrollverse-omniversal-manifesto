@@ -131,8 +131,9 @@
       "domains": [
         "uap_disclosure"
       ],
-      "fetch_mode": "manual_review_only",
-      "reason": "No verified RSS endpoint registered; do not scrape or infer updates from unverified mirrors."
+      "fetch_mode": "page_hash_monitor",
+      "reason": "No verified RSS endpoint registered; do not scrape or infer updates from unverified mirrors.",
+      "enabled": true
     },
     {
       "id": "nasa-uap-study",
@@ -141,8 +142,9 @@
       "domains": [
         "uap_disclosure"
       ],
-      "fetch_mode": "manual_review_only",
-      "reason": "Official reference page retained for human review."
+      "fetch_mode": "page_hash_monitor",
+      "reason": "Official reference page retained for human review.",
+      "enabled": true
     },
     {
       "id": "archaeology-institute",
@@ -151,8 +153,20 @@
       "domains": [
         "ancient_civilizations"
       ],
-      "fetch_mode": "manual_review_only",
-      "reason": "Official publication homepage; add a feed only after validating its official syndication endpoint."
+      "fetch_mode": "page_hash_monitor",
+      "reason": "Official publication homepage; add a feed only after validating its official syndication endpoint.",
+      "enabled": true
+    },
+    {
+      "id": "nmai-official",
+      "name": "Smithsonian National Museum of the American Indian",
+      "url": "https://americanindian.si.edu/",
+      "domains": [
+        "ancient_civilizations"
+      ],
+      "fetch_mode": "page_hash_monitor",
+      "enabled": true,
+      "reason": "Institutional page monitor only; not a substitute for permission-based Indigenous community knowledge or oral histories."
     }
   ],
   "coverage_note": "Initial feed coverage is intentionally stronger for astronomy, science, research preprints, history, religion and AI. UAP official pages are tracked as human-review sources pending a verified feed/API. Paranormal, cryptid, Indigenous and local oral-history records require carefully sourced, consent-aware accessions rather than automated truth-ranking."

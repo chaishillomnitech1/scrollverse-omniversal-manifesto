@@ -12,7 +12,9 @@ It:
 5. Records titles, canonical HTTPS links, publication metadata, author when available, source/feed lineage, first-seen time, and a deterministic metadata SHA-256.
 6. Deduplicates repeated feed entries and preserves their first-seen timestamp within each daily accession.
 7. Records feed failures rather than silently omitting them.
-8. Publishes daily source metadata to the persistent `automation/observatory-daily-ingest` review branch. It does not push unreviewed source records directly to main. A separate branch keeps daily accessions durable without bypassing repository review controls.
+8. Checks allowlisted official institutional pages (AARO, NASA UAP, archaeology, and the Smithsonian National Museum of the American Indian) for content-hash changes, recording baseline/changed/unchanged states without copying page bodies.
+9. Records page-monitor failures independently from feed failures.
+10. Publishes daily source metadata to the persistent `automation/observatory-daily-ingest` review branch. It does not push unreviewed source records directly to main. A separate branch keeps daily accessions durable without bypassing repository review controls.
 
 ## What the collector does not do
 
@@ -40,7 +42,7 @@ Each file contains:
 - `feed_failures`: errors, timestamps, and source IDs;
 - explicit scope notes.
 
-The original report remains at its canonical source URL. The Observatory accession preserves its bibliographic trail and metadata. Where a primary source permits lawful preservation of original bytes, a human curator may add a separately hashed immutable source artifact with rights and custody details.
+Page monitors preserve the canonical page URL, page title, response metadata, current and prior content hashes, and change state. They do not preserve the HTML body; a hash is a change detector, not proof of authenticity or truth. The original report remains at its canonical source URL. The Observatory accession preserves its bibliographic trail and metadata. Where a primary source permits lawful preservation of original bytes, a human curator may add a separately hashed immutable source artifact with rights and custody details.
 
 ## Human review gate
 
