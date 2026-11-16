@@ -74,6 +74,10 @@ A discovery is not complete merely because it is exciting, published, or widely 
 
 The scheduled collector and its human-review process are documented in [AUTOMATION-AND-OPERATIONS.md](./AUTOMATION-AND-OPERATIONS.md). The initial allowlisted source registry is [SOURCES.json](./SOURCES.json). Incoming feed items are source leads only and are never automatically promoted to verified findings. The machine-readable lead contract is [INGEST-LEAD.schema.json](./INGEST-LEAD.schema.json). Regression tests run on pull requests; the daily feed job is designed to open a review pull request rather than silently modify the canonical archive.
 
+## Live source-review stream
+
+Daily automated source-lead accessions are preserved on the separate [Observatory ingestion review branch](https://github.com/chaishillomnitech1/scrollverse-omniversal-manifesto/tree/automation/observatory-daily-ingest). Each lead remains unreviewed and unverified until a human curator inspects the underlying source.
+
 ## Existing ScrollVerse artifacts
 
 See [PYRAMID-AND-ARCHIVE-CROSSWALK.md](./PYRAMID-AND-ARCHIVE-CROSSWALK.md) for a first-pass inventory of existing digital-pyramid and archive references. Existing artifacts remain in their original repositories.
