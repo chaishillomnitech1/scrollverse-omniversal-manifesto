@@ -1,6 +1,6 @@
 {
   "archive_id": "OKO-FEED-INGEST-2026-11-16",
-  "generated_at_utc": "2026-11-16T23:20:20Z",
+  "generated_at_utc": "2026-11-16T23:22:52Z",
   "collector_version": "1.0.0",
   "registry_version": "1.0.0",
   "record_type": "discovery_leads_not_verified_findings",
@@ -8511,7 +8511,9 @@
       "http_result": "success",
       "feed_payload_sha256": "7d0551363235bd7b03fc83c144882557793076be865198c9726b05f9c7ea6824",
       "items_discovered": 10,
-      "fetched_at_utc": "2026-11-16T23:20:18Z"
+      "items_limit_reached": false,
+      "per_feed_item_limit": 100,
+      "fetched_at_utc": "2026-11-16T23:22:50Z"
     },
     {
       "feed_id": "cneos-news",
@@ -8521,7 +8523,9 @@
       "http_result": "success",
       "feed_payload_sha256": "04ba78fcfe7428497a403c395b78156a955c207d4efcd3fbfc9fa3887f5f8480",
       "items_discovered": 10,
-      "fetched_at_utc": "2026-11-16T23:20:18Z"
+      "items_limit_reached": false,
+      "per_feed_item_limit": 100,
+      "fetched_at_utc": "2026-11-16T23:22:50Z"
     },
     {
       "feed_id": "smithsonian-history",
@@ -8531,7 +8535,9 @@
       "http_result": "success",
       "feed_payload_sha256": "fb6ce9e6adb0aeaea5fb2f8fbb21ec3ee9a5d9754f4be4ad2e7c5e0f2fd39c34",
       "items_discovered": 16,
-      "fetched_at_utc": "2026-11-16T23:20:19Z"
+      "items_limit_reached": false,
+      "per_feed_item_limit": 100,
+      "fetched_at_utc": "2026-11-16T23:22:50Z"
     },
     {
       "feed_id": "smithsonian-science",
@@ -8541,7 +8547,9 @@
       "http_result": "success",
       "feed_payload_sha256": "d06e8153e100afc9758435c69de027f2bba6cce4026f8dbd2d9791691fdc36f3",
       "items_discovered": 20,
-      "fetched_at_utc": "2026-11-16T23:20:19Z"
+      "items_limit_reached": false,
+      "per_feed_item_limit": 100,
+      "fetched_at_utc": "2026-11-16T23:22:51Z"
     },
     {
       "feed_id": "pew-religion",
@@ -8551,7 +8559,9 @@
       "http_result": "success",
       "feed_payload_sha256": "f57697045f7c3b4bd3a12b672916c529b9f95c3c22d390d329bf217df33901db",
       "items_discovered": 100,
-      "fetched_at_utc": "2026-11-16T23:20:20Z"
+      "items_limit_reached": true,
+      "per_feed_item_limit": 100,
+      "fetched_at_utc": "2026-11-16T23:22:51Z"
     },
     {
       "feed_id": "arxiv-history-science",
@@ -8561,7 +8571,9 @@
       "http_result": "success",
       "feed_payload_sha256": "17d0de2f3c61d9b21982b3d601c939581c5bac3049df78b12eb5206aa7a24618",
       "items_discovered": 3,
-      "fetched_at_utc": "2026-11-16T23:20:20Z"
+      "items_limit_reached": false,
+      "per_feed_item_limit": 100,
+      "fetched_at_utc": "2026-11-16T23:22:51Z"
     },
     {
       "feed_id": "arxiv-exoplanets",
@@ -8571,7 +8583,9 @@
       "http_result": "success",
       "feed_payload_sha256": "42c4af14e090afe581423a26a4de66ce91bf548aa6c828783260f25a00b791ec",
       "items_discovered": 20,
-      "fetched_at_utc": "2026-11-16T23:20:20Z"
+      "items_limit_reached": false,
+      "per_feed_item_limit": 100,
+      "fetched_at_utc": "2026-11-16T23:22:51Z"
     },
     {
       "feed_id": "arxiv-neuroscience",
@@ -8581,7 +8595,9 @@
       "http_result": "success",
       "feed_payload_sha256": "0fd5d94e20c73a9499c379a887139e15aaf0682abcc35674a65bc47b74f92d34",
       "items_discovered": 17,
-      "fetched_at_utc": "2026-11-16T23:20:20Z"
+      "items_limit_reached": false,
+      "per_feed_item_limit": 100,
+      "fetched_at_utc": "2026-11-16T23:22:51Z"
     },
     {
       "feed_id": "arxiv-ai",
@@ -8591,7 +8607,9 @@
       "http_result": "success",
       "feed_payload_sha256": "6e1c737b1b58b3bbf1c3a687f5c047b35a4c5eec64fb17f309dbcf60ca7f0c2c",
       "items_discovered": 100,
-      "fetched_at_utc": "2026-11-16T23:20:20Z"
+      "items_limit_reached": true,
+      "per_feed_item_limit": 100,
+      "fetched_at_utc": "2026-11-16T23:22:52Z"
     },
     {
       "feed_id": "arxiv-quantum",
@@ -8601,17 +8619,11 @@
       "http_result": "success",
       "feed_payload_sha256": "cccb283b570d70b953b232300ef007030f6c946a5525e6a055bf9ab2b187b052",
       "items_discovered": 100,
-      "fetched_at_utc": "2026-11-16T23:20:20Z"
+      "items_limit_reached": true,
+      "per_feed_item_limit": 100,
+      "fetched_at_utc": "2026-11-16T23:22:52Z"
     }
   ],
-  "feed_failures": [
-    {
-      "feed_id": "nasa-science",
-      "feed_url": "https://science.nasa.gov/feed/",
-      "error_type": "ParseError",
-      "message": "not well-formed (invalid token): line 8, column 45",
-      "recorded_at_utc": "2026-11-16T23:20:18Z"
-    }
-  ],
+  "feed_failures": [],
   "coverage_note": "A feed item is a lead to inspect. Feed inclusion, repetition, metadata hashes, and source class do not establish factual truth or independent corroboration."
 }
