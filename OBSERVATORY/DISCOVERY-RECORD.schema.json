@@ -18,7 +18,9 @@
     "unresolved_questions",
     "cross_domain_connections",
     "revision_history",
-    "preservation"
+    "preservation",
+    "date_precision",
+    "witness_or_reporting_organization"
   ],
   "properties": {
     "accession_id": {
