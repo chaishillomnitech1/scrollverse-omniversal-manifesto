@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: "17 11 * * *"
   workflow_dispatch:
+  pull_request:
+    paths:
+      - ".github/workflows/observatory-ingest.yml"
+      - "OBSERVATORY/**"
 
 permissions:
   contents: write
@@ -36,9 +40,11 @@ jobs:
           python -m json.tool OBSERVATORY/SOURCES.json > /dev/null
 
       - name: Collect registered source feeds
+        if: github.event_name != 'pull_request'
         run: python OBSERVATORY/scripts/ingest_feeds.py
 
       - name: Open or update source-ingestion pull request
+        if: github.event_name != 'pull_request'
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
