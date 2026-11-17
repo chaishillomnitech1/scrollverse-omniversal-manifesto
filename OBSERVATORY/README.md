@@ -86,6 +86,6 @@ See [PYRAMID-AND-ARCHIVE-CROSSWALK.md](./PYRAMID-AND-ARCHIVE-CROSSWALK.md) for a
 
 ## Current status
 
-**FOUNDATION / PROPOSED OPERATING FRAMEWORK.** This commit establishes the charter, research protocol, schema, and initial source crosswalk. It does not claim that a global data-ingestion pipeline, automated monitoring, scientific review board, or live public Observatory interface is already deployed.
+**COLLECTOR OPERATIONAL; ATLAS UNDER REVIEW.** The scheduled collector and institutional page-hash monitor are implemented in `.github/workflows/observatory-ingest.yml` and `OBSERVATORY/scripts/ingest_feeds.py`. The latest recorded successful run is 2026-11-16, GitHub Actions run [#43979168083](https://github.com/chaishillomnitech1/scrollverse-omniversal-manifesto/actions/runs/43979168083): 11 successful feeds, 496 source leads, zero feed failures, four feeds at the 100-item cap, two changed page hashes, and zero page-monitor failures. These are discovery leads and review flags, not verified findings. The Atlas interface is proposed in [PR #9](https://github.com/chaishillomnitech1/scrollverse-omniversal-manifesto/pull/9); it is not merged or deployed. The public dashboard, curated discovery library, complete global source network, and scientific review board remain future work.
 
 **Archive doctrine:** Nothing erased. Nothing inflated. Nothing hidden. Everything contextualized.
