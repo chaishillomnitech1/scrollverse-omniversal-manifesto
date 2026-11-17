@@ -72,6 +72,8 @@ A discovery is not complete merely because it is exciting, published, or widely 
 
 ## Automated source discovery
 
+See [INGEST-RUN-LOG.md](./INGEST-RUN-LOG.md) for dated workflow evidence, collection counts, feed failures, and corrective actions.
+
 The scheduled collector and its human-review process are documented in [AUTOMATION-AND-OPERATIONS.md](./AUTOMATION-AND-OPERATIONS.md). The initial allowlisted source registry is [SOURCES.json](./SOURCES.json). Incoming feed items are source leads only and are never automatically promoted to verified findings. The machine-readable lead contract is [INGEST-LEAD.schema.json](./INGEST-LEAD.schema.json). Regression tests run on pull requests; daily feed records are published to a persistent review branch rather than silently modifying the canonical archive.
 
 ## Live source-review stream
