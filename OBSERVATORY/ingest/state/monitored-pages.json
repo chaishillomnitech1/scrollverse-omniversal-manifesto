@@ -1,13 +1,13 @@
 {
   "nasa-uap-study": {
-    "content_sha256": "72f939d077b7c00b3c4594618c5f6bca42c27974006d62e42d6dc9e0ec6db9cc",
-    "last_checked_utc": "2026-11-22T11:21:25Z",
+    "content_sha256": "5eb26c754a8f8e5547b5201b5df6cfd2f9033df3b0ff59ae87806f0e38173ec4",
+    "last_checked_utc": "2026-11-23T11:21:19Z",
     "source_url": "https://science.nasa.gov/uap/",
     "title": "UAP - NASA Science"
   },
   "archaeology-institute": {
-    "content_sha256": "68c8069706c8e4dfbd24b118fbcc434e35380ebf77b575d33dd9b70d74e2e4e9",
-    "last_checked_utc": "2026-11-22T11:21:26Z",
+    "content_sha256": "18db4241ecfa817d155e680aedf170fb92a6fa8942d2af0fc09050b0d0337458",
+    "last_checked_utc": "2026-11-23T11:21:19Z",
     "source_url": "https://archaeology.org/",
     "title": "Archaeology Magazine"
   }
