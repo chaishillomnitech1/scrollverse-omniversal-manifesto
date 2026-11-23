@@ -40,7 +40,7 @@ The Observatory extends this archive into a structured research and discovery sy
 
 Start here: [OBSERVATORY/README.md](./OBSERVATORY/README.md).
 
-The foundation includes a charter, research and evidence protocol, machine-readable discovery-record schema, initial register, and a crosswalk to existing ScrollVerse digital-pyramid artifacts. It is a documented foundation; it does not claim that a global ingestion pipeline or public Observatory interface is already deployed.
+The Observatory now has a scheduled GitHub Actions collector for allowlisted RSS/Atom feeds and institutional page-hash monitoring. Its latest recorded successful run (16 November 2026, run 43979168083) archived 496 source leads from 11 successful feeds, with zero feed failures; four feeds reached the 100-item cap and two monitored pages changed hash. These are source leads and change flags, not verified discoveries. Daily accessions remain on the separate automation/observatory-daily-ingest review branch. The searchable Atlas interface is proposed in [PR #9](https://github.com/chaishillomnitech1/scrollverse-omniversal-manifesto/pull/9); it is not yet merged or publicly deployed.
 
 ## New continuity accession
 
